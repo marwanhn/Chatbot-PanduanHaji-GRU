@@ -9,11 +9,13 @@ data = {
                 "jelaskan apa itu haji?"
             ],
             "responses": [
-                """Menurut bahasa kata haji berarti menuju dan menurut istilah syari'ah,
+                """
+                Menurut bahasa kata haji berarti menuju dan menurut istilah syari'ah,
                 Haji adalah berkunjung ke Baitullah (Ka'bah) untuk melaksanakan ibadah-ibadah seperti Thawaf, Sa'i, Wuquf di Arafah dan ibadah lainnya pada masa-masa tertentu,
                 untuk memenuhi perintah Allah SWT dan mengharap ridha-Nya.\n\nIbadah Haji adalah rukun Islam yang ke lima,
                 hukumnya fardhu 'ain (kewajiban individual) bagi setiap muslim yang telah mencukupi syarat, ibadah haji diwajibkan pada tahun ke tujuh hijriyah dengan turunnya QS. 2 (Al-Baqarah): 196. Ibadah haji diwajibkan hanya sekali seumur hidup, haji yang ke dua dan seterusnya adalah sunnat namun haji yang dinadzarkan hukumnya wajib.\n\n[Sumber: Buku Syari'ah Ibadah dari al-Quran dan al-Sunnah, halaman 295
-                ]"
+                """
+            ]
             ]
         },
         {
