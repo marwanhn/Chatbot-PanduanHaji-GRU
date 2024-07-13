@@ -1,0 +1,2478 @@
+data = {
+    "intents": [
+        {
+            "tag": "pengertian-haji",
+            "patterns": [
+                "apa pengertian haji?",
+                "jelaskan pengertian haji?",
+                "apa itu haji?",
+                "jelaskan apa itu haji?"
+            ],
+            "responses": [
+                """Menurut bahasa kata haji berarti menuju dan menurut istilah syari'ah,
+                Haji adalah berkunjung ke Baitullah (Ka'bah) untuk melaksanakan ibadah-ibadah seperti Thawaf, Sa'i, Wuquf di Arafah dan ibadah lainnya pada masa-masa tertentu,
+                untuk memenuhi perintah Allah SWT dan mengharap ridha-Nya.\n\nIbadah Haji adalah rukun Islam yang ke lima,
+                hukumnya fardhu 'ain (kewajiban individual) bagi setiap muslim yang telah mencukupi syarat, ibadah haji diwajibkan pada tahun ke tujuh hijriyah dengan turunnya QS. 2 (Al-Baqarah): 196. Ibadah haji diwajibkan hanya sekali seumur hidup, haji yang ke dua dan seterusnya adalah sunnat namun haji yang dinadzarkan hukumnya wajib.\n\n[Sumber: Buku Syari'ah Ibadah dari al-Quran dan al-Sunnah, halaman 295
+                ]"
+            ]
+        },
+        {
+            "tag": "haji-menurut-bahasa",
+            "patterns": [
+                "Apa arti kata haji dalam bahasa?",
+                "Definisi haji menurut bahasa apa?",
+                "Apa makna haji dalam terminologi bahasa?",
+                "Apa pengertian haji dari segi bahasa?",
+                "Jelaskan haji menurut bahasa",
+                "Jelaskan pengertian haji menurut bahasa?",
+            ],
+            "responses": [
+                "Menurut bahasa, kata haji dalam bahasa Arab (حاج) yang artinya menuju."
+            ]
+        },
+        {
+            "tag": "haji-menurut-istilah",
+            "patterns": [
+                "Apa yang dimaksud dengan haji dalam istilah syari'ah?",
+                "Jelaskan definisi haji menurut istilah syariat?",
+                "Apa arti haji dalam konteks istilah syariat?",
+                "Apa yang diwajibkan dalam haji menurut istilah syari'ah?",
+                "Jelaskan pengertian haji menurut istilah?"
+            ],
+            "responses": [
+                "Menurut istilah syari'ah, haji adalah berkunjung ke Baitullah (Ka'bah) untuk melaksanakan ibadah-ibadah seperti Thawaf, Sa'i, Wuquf di Arafah dan ibadah lainnya pada masa-masa tertentu, untuk memenuhi perintah Allah SWT dan mengharap ridha-Nya."
+            ]
+        },
+        {
+            "tag": "rukun-haji",
+            "patterns": [
+                "apa saja rukun haji?",
+                "sebutkan rukun haji",
+                "rukun haji ada berapa?",
+                "Berapa jumlah rukun haji menurut syariat?"
+            ],
+            "responses": [
+                "Menurut mazhab syafi'i menyebutkan bahwa ada enam rukun dalam haji yaitu berihram, mengerjakan wukuf di Arafah, Tawaf Ifadah, melaksanakan Sa'i, menggundulkan rambut kepala dan tertib dalam mengerjakan rukun tersebut."
+            ]
+        },
+        {
+            "tag": "pengertian-umrah",
+            "patterns": [
+                "apa pengertian umrah?",
+                "jelaskan pengertian umrah?",
+                "apa itu umrah?",
+                "jelaskan apa itu umrah?",
+                "apa yang diaksud ibadah umrah?",
+                "Jelaskan pengertian umrah menurut bahasa?",
+                "Jelaskan pengertian umrah menurut istilah?"
+            ],
+            "responses": [
+                "Menurut bahasa kata umrah berarti berziarah. Sedangkan menurut istilah syari'ah, umrah adalah berkunjung ke Baitullah untuk melakukan thawaf, Sa'i, dan bercukur demi mengharap ridha Allah."
+            ]
+        },
+        {
+            "tag": "umratul-islam",
+            "patterns": [
+                "apa itu umratul islam?",
+                "umratul islam itu apa?",
+                "jelaskan pengertian umratul islam?",
+                "pengertian umratul islam",
+                "disebut apa ibadah umrah yang dilakukan bersamaan dengan ibadah haji?",
+                "Apa sebutan ibadah umrah yang dilakukan bersamaan dengan ibadah haji?"
+            ],
+            "responses": [
+                "Ibadah umrah yang dilakukan bersamaan dengan ibadah haji disebut Umratul Islam dan hukumnya wajib. Umratul Islam juga bisa disebut sebagai umrah pertama umat muslim.\n\nUmratul Islam adalah istilah yang digunakan untuk menggambarkan umat Islam atau komunitas Islam secara keseluruhan. 'Umratul' berasal dari kata 'umrah,' yang berarti ziarah kecil dalam Islam, dan 'Islam' mengacu pada agama Islam itu sendiri. Jadi, Umratul Islam bisa diartikan sebagai umat Islam yang melakukan ibadah atau ziarah dalam konteks yang lebih luas.\n\nNamun, istilah ini tidak terlalu umum digunakan dalam bahasa Indonesia sehari-hari. Yang lebih sering digunakan adalah 'Umat Islam' atau 'Umat Muslim' untuk merujuk kepada komunitas atau populasi yang memeluk agama Islam."
+            ]
+        },
+        {
+            "tag": "waktu-haji",
+            "patterns": [
+                "kapan waktu yang diperbolehkan untuk melakukan haji?",
+                "apa saja waktu yang diperbolehkan untuk haji?",
+                "kapan miqat zamani untuk haji?",
+                "Kapan periode ibadah haji dimulai setiap tahunnya?",
+                "Apa batas waktu pelaksanaan haji menurut kalender Islam?"
+            ],
+            "responses": [
+                "Ibadah haji hanya dapat dilaksanakan pada bulan-bulan tertentu yakni dari tanggal 1 Syawal sampai terbit fajar tanggal 10 Dzulhijjah dan ini disebut dengan Miqat Zamani (batas waktu melaksanakan ibadah haji)."
+            ]
+        },
+        {
+            "tag": "hukum-haji-umrah",
+            "patterns": [
+                "Apa hukum ibadah haji dan umrah?",
+                "Apakah haji dan umrah wajib dilaksanakan oleh setiap Muslim?",
+                "Kapan haji dan umrah menjadi kewajiban bagi umat Islam?",
+                "Bagaimana status hukum haji dan umrah dalam Islam?",
+                "Hukum melakukan haji dan umrah itu apa?"
+            ],
+            "responses": [
+                "Hukum ibadah haji dan umrah adalah wajib bagi yang mampu dan dilaksanakan sekali seumur hidup",
+                "Menurut syariat Islam, haji adalah wajib sekali seumur hidup bagi yang mampu, sedangkan umrah adalah sunnah namun sangat dianjurkan.",
+                "Ibadah haji wajib dilakukan minimal sekali bagi setiap Muslim yang mampu secara finansial dan fisik, sementara umrah, meskipun bukan wajib, sangat disarankan."
+            ]
+        },
+        {
+            "tag": "haji-gabung-umrah",
+            "patterns": [
+                "Apakah setiap ibadah haji harus digabung dengan umrah?",
+                "Haruskah haji selalu dilaksanakan bersama umrah?",
+                "Apakah umrah perlu dilakukan bersamaan dengan haji?",
+                "Apakah wajib menggabungkan umrah dengan haji setiap kali beribadah?",
+                "Bolehkah melakukan haji tanpa umrah?"
+            ],
+            "responses": [
+                "Ibadah haji dan umrah adalah dua peribadatan yang masing-masing berdiri sendiri. Tidak setiap ibadah haji harus digabung dengan ibadah umrah.",
+                "Tidak, haji dan umrah adalah ibadah yang terpisah. Walaupun banyak yang memilih untuk melakukan keduanya bersamaan, ini bukan suatu keharusan.",
+                "Meskipun sering dilakukan bersamaan, haji dan umrah dapat dilaksanakan secara terpisah. Keduanya adalah ibadah yang independen satu sama lain."
+            ]
+        },
+        {
+            "tag": "haji-tamattu",
+            "patterns": [
+                "Apakah yang dimaksud haji tamattu?",
+                "Jelaskan apa itu haji tamattu?",
+                "Apa itu haji tamattu dan apa saja ketentuannya?",
+                "Bagaimana proses haji tamattu dilakukan?",
+                "Apa perbedaan haji tamattu dengan jenis haji lainnya?"
+            ],
+            "responses": [
+                "Haji tamattu' adalah melakukan umrah lebih dulu kemudian mengerjakan ibadah haji. Jemaah yang melakukan cara ini dikenakan dam/denda."""
+            ]
+        },
+        {
+            "tag": "haji-ifrad",
+            "patterns": [
+                "Apa yang dimaksud haji ifrad?",
+                "Jelaskan tentang haji ifrad dan aturannya?",
+                "Apa itu haji ifrad dan bagaimana pelaksanaannya?",
+                "Bagaimana proses haji ifrad dilakukan?",
+                "Apa perbedaan haji ifrad dengan jenis haji lain?"
+            ],
+            "responses": [
+                "Haji ifrad adalah melakukan haji saja. Jemaah yang akan umrah wajib atau sunat, setelah menyelesaikan haji dapat melaksanakan umrah dengan Miqat dari Tan'im, Ji'ranah, Hudaibiyah atau daerah tanah halal lainnya. Jemaah yang melakukan cara ini tidak dikenakan dam.",
+                "Dalam haji ifrad, jemaah hanya melaksanakan haji tanpa umrah terlebih dahulu. Mereka memiliki opsi untuk melakukan umrah setelah haji dari titik Miqat terdekat tanpa kewajiban membayar dam.",
+                "Haji ifrad memungkinkan pelaksanaan haji secara mandiri, diikuti dengan umrah jika diinginkan, tanpa denda atau dam yang dikenakan."
+            ]
+        },
+        {
+            "tag": "haji-qiran",
+            "patterns": [
+                "Apa yang dimaksud haji qiran?",
+                "Jelaskan apa itu haji qiran dan bagaimana cara melaksanakannya?",
+                "Bagaimana proses haji qiran dilakukan?",
+                "Apa perbedaan haji qiran dengan jenis haji lainnya?",
+                "Mengapa haji qiran memerlukan pembayaran dam?"
+            ],
+            "responses": [
+                "Haji qiran adalah mengerjakan haji dan umrah di dalam satu niat dan satu pekerjaan sekaligus. Jemaah yang melakukan cara ini juga wajib membayar dam nusuk. Pelaksanaan dam haji qiran sama dengan pelaksanaan dam pada haji tamattu'.",
+                "Dalam haji qiran, umrah dan haji dilakukan bersamaan dengan niat yang sama dan tanpa memisahkan ihram. Dam harus dibayar sebagai bagian dari pelaksanaan ibadah.",
+                "Haji qiran menggabungkan umrah dan haji dalam satu ihram dan satu niat. Jemaah yang melakukan cara ini juga wajib membayar dam nusuk."
+            ]
+        },
+        {
+            "tag": "syarat-wajib-haji-umrah",
+            "patterns": [
+                "Apa syarat wajib haji/umrah?",
+                "Kriteria apa saja yang membuat seseorang wajib haji atau umrah?",
+                "Syarat apa yang menentukan kewajiban melaksanakan haji dan umrah?"
+            ],
+            "responses": [
+                """Syarat wajib haji/umrah ada lima:\n
+              a. Islam \n
+              b. Baligh (dewasa) \n
+              c. Berakal sehat \n
+              d. Merdeka (bukan budak) \n
+              e. Istia'ah (mampu) \n
+              Setiap orang yang belum memenuhi syarat tersebut belum wajib berhaji/umrah.
+              ""","Untuk wajib haji atau umrah, seseorang harus memenuhi lima syarat utama: beragama Islam, sudah baligh atau dewasa, berakal sehat, merdeka, dan memiliki kemampuan finansial serta fisik.",
+            ]
+        },
+        {
+            "tag": "pengertian-istitaah",
+            "patterns": [
+                "Apa yang dimaksud dengan istita'ah (mampu) dalam ibadah haji?",
+                "Jelaskan konsep istita'ah dalam konteks haji?",
+                "Apa saja yang termasuk dalam istita'ah untuk haji?",
+                "Bagaimana bisa dikatakan seseorang memiliki istita'ah untuk melakukan haji?",
+                "Definisi istita'ah dalam pelaksanaan haji apa saja?"
+            ],
+            "responses": [
+                "Istita'ah (mampu dalam ibadah haji) adalah sebagaimana yang disabdakan Rasulullah SAW saat ditanya tentang istita'ah, yaitu bekal dan kendaraan. Yang dimaksud dengan bekal adalah bekal materi, pengetahuan, dan kesehatan. Sedangkan yang dimaksud dengan kendaraan adalah sesuatu yang dapat mengantarkan seseorang untuk melaksanakan ibadah haji, yaitu kendaraan, waktu, kesempatan dan memperoleh jatah (kuota), termasuk penugasan.",
+            ]
+        },
+        {
+            "tag": "rukun-haji",
+            "patterns": [
+                "Ada berapa rukun haji itu?",
+                "Berapa jumlah rukun haji yang harus dilaksanakan?",
+                "Apa saja rukun-rukun dalam haji?",
+                "Sebutkan semua rukun haji dan penjelasannya.",
+                "Berapa dan apa saja rukun haji yang diperlukan untuk haji yang sah?"
+            ],
+            "responses": [
+                """Rukun Haji ada 6 (enam): \n
+              a. Ihram (niat) \n
+              b. Wukuf di Arafah \n
+              c. Thawaf ifadah \n
+              d. Sa\'i \n
+              e. Bercukur \n
+              f. Tertib, sesuai dengan urutannya. \n
+              Apabila tidak melaksanakan salah satu rukun haji tersebut, maka hajinya tidak sah."""
+            ]
+        },
+        {
+            "tag": "wajib-haji",
+            "patterns": [
+                "Ada berapa wajib haji?",
+                "Berapa jumlah wajib haji yang dikenal dalam syariat Islam?",
+                "Apa saja yang termasuk dalam wajib haji?",
+                "Sebutkan kewajiban-kewajiban yang harus dipenuhi dalam haji?",
+                "Apa yang harus dilakukan sebagai bagian dari wajib haji?"
+            ],
+            "responses": [
+                """Wajib Haji ada 6 (enam): \n
+              a. Ihram (niat) haji dari miqat \n
+              b. Mabit di Muzdalifah \n
+              c. Mabit/Menginap di Mina. Bermalam di Mina selama hari-hari tasyriq. \n
+              d. Melontar Jamrah \n
+              e. Menghindari perbuatan yang terlarang dalam keadaan berihram \n
+              f. Thawaf wada\' bagi yang akan meninggalkan Makkah. \n
+              Apabila meninggalkan salah satu wajib haji, maka hajinya sah, akan tetapi wajib membayar dam. Meniggalkan thawaf wada\' bagi jemaah haji yang uzur (sakit atau sedang haid) tidak dikenakan dam."""
+            ]
+        },
+        {
+            "tag": "tertib-haji",
+            "patterns": [
+                "Apa yang dimaksud tertib dalam pelaksanaan ibadah haji?",
+                "Apa itu tertib dalam ibadah haji?",
+                "Jelaskan tertib dalam pelaksanaan ibadah haji?"
+            ],
+            "responses": [
+                "Tertib dalam pelaksanaan ibadah haji adalah melaksanakan ketentuan hukum manasik sesuai dengan aturan yang ada."
+            ]
+        },
+        {
+            "tag": "rukun-umrah",
+            "patterns": [
+                "Ada berapakah rukun umrah?",
+                "Apa saja yang termasuk rukun umrah?",
+                "Sebutkan dan jelaskan rukun-rukun umrah",
+                "Apa konsekuensi jika salah satu rukun umrah ditinggalkan?"
+            ],
+            "responses": [
+                """Rukun umrah ada 5 (lima) \n
+              a. Ihram (niat) \n
+              b. Thawaf \n
+              c. Sa\'i \n
+              d. Bercukur \n
+              e. Tertib \n
+              Apabila meninggalkan salah satu rukun umrah, maka umrahnya tidak sah."""
+            ]
+        },
+        {
+            "tag": "wajib-umrah",
+            "patterns": [
+                "Apa yang dimaksud wajib umrah?",
+                "Apa itu wajib umrah?",
+                "Apa saja yang termasuk wajib umrah?",
+                "Mengapa ada kewajiban membayar dam dalam umrah?",
+                "Apa konsekuensi jika melanggar wajib umrah?"
+            ],
+            "responses": [
+                "Wajib umrah adalah irham umrah dari miqat dan tidak melakukan perbuatan/ hal-hal yang diharamkan pada waktu melakukan umrah. Apabila meninggalkan wajib umrah, maka wajib membayar dam."
+            ]
+        },
+        {
+            "tag": "umrah-wajib",
+            "patterns": [
+                "Apa yang dimaksud umrah wajib?",
+                "Apa itu umrah wajib?",
+            ],
+            "responses": [
+                "Wajib umrah adalah umrah yang baru pertama kali dilakukan (disebut juga umratul Islam) atau umrah yang dilakukan karena nadzar"
+            ]
+        },
+        {
+            "tag": "umrah-sunat",
+            "patterns": [
+                "Apa yang dimaksud umrah sunat?",
+                "Apa itu umrah sunat?",
+                "Apa perbedaan umrah wajib dan umrah sunat?"
+            ],
+            "responses": [
+                "Umrah sunat adalah umrah yang dilaksanakan untuk yang kedua kali dan seterusnya, bukan karena nadzar."
+            ]
+        },
+        {
+            "tag": "umrah-tujuh-kali",
+            "patterns": [
+                "Apa benar melaksanakan umrah 7 (tujuh) kali sama pahalanya dengan melaksanakan ibadah haji 1 (satu) kali?",
+                "Benarkah umrah tujuh kali setara dengan satu haji?",
+                "Apakah melakukan umrah 7 kali dapat menggantikan haji?",
+                "Adakah kebenaran bahwa umrah tujuh kali sama dengan haji sekali?",
+                "Apakah ada dalil yang menyatakan umrah tujuh kali setara dengan haji?"
+            ],
+            "responses": [
+                "Tidak benar, karena tidak ada dalil yang mengatakan demikian."
+            ]
+        },
+        {
+            "tag": "umrah-sebelum-wukuf",
+            "patterns": [
+                "Apa boleh melakukan umrah berkali-kali sebelum wukuf?",
+                "Apakah diperbolehkan untuk melaksanakan umrah beberapa kali sebelum hari wukuf?",
+                "Bolehkah melakukan umrah berulang kali dalam satu musim haji sebelum wukuf?",
+                "Adakah batasan jumlah umrah yang dapat dilakukan sebelum wukuf?",
+                "Apakah umum untuk melakukan beberapa umrah sebelum wukuf?"
+            ],
+            "responses": [
+                "Diperbolehkan melakukan umrah berkali-kali sebelum wukuf, namun untuk menjaga kondisi kesehatan dalam rangka persiapan wukuf sebaiknya tidak melakukan umrah berkali-kali sebelum wukuf, mengingat Rasulullah SAW melakukan umrah 4 (empat) kali dalam 4 (empat) tahun yang berbeda."
+            ]
+        },
+        {
+            "tag": "pengertian-ihram",
+            "patterns": [
+                "Jelaskan apa itu ihram dalam konteks haji dan umrah?",
+                "Apa yang dimaksud berihram saat melakukan haji atau umrah?",
+                "Bagaimana seseorang memasuki keadaan ihram?",
+                "Apa itu Ihram?",
+                "Jelaskan Ihram menurut bahasa dan Istilah?"
+            ],
+            "responses": [
+                "Ihram adalah niat masuk (mengerjakan) dalam ibadah haji dan umrah dengan menghindari hal-hal yang dilarang selama berihram.""Kata Ihram berasal dari kata احرم – يحرم – احراما, yang berarti mengharamkan. Dalam kontek haji dan umrah, imrah berarti, الدخول فى الحرمة(masuk dalam keharaman). Sedangkan menurut istilah, ihram artinya niat masuk (mengerjakan) ibadah haji atau umrah dengan mengharamkan hal-hal yang dilarang selama berihram. Dengan mengucapkan niat ihram haji atau umrah, seseorang berarti telah mulai melaksanakan haji atau umrah."
+            ]
+        },
+        {
+            "tag": "mulai-ihram-haji-indonesia",
+            "patterns": [
+                "Di mana dimulai ihram haji dan umrah bagi jemaah haji Indonesia?",
+                "Dari mana jemaah haji Indonesia mulai berihram?",
+                "Apa miqat ihram untuk jemaah haji dan umrah dari Indonesia?",
+                "Dimana jemaah haji Indonesia harus memulai ihram?",
+                "Lokasi mulai ihram bagi jemaah haji dan umrah Indonesia?"
+            ],
+            "responses": [
+                """a) Bagi jemaah haji gelombang I, miqat ihramnya di Bir Ali (Dzul Hulaifah). \n
+              b) Bagi jemaah haji gelombang II, miqat ihramnya: \n
+              \t\t1. Asrasma Haji Embarkasi di Tanah Air. Bagi yang berihram semenjak di Asrama Haji Embarkasi, baginya berlaku semua ketentuan dan larangan berihram selama menempuh perjalanan menuju Jeddah antara 8-11 jam, sampai tahallul \n
+              2. Di atas pesawat udara sebelum melintas di atas/berada pada garis sejajar dengan Yalamlam/Qarnul Manazil atau; \n
+              3. Di Bandar Udara King Abdul Azis Jeddah, sesuai dengan Keputusan Komisi Fatwa MUI tanggal 28 Maret 1980 yang dikukuhkan kembali tanggal 19 September 1981 tentang Miqat Haji dan Umrah."""
+            ]
+        },
+        {
+            "tag": "bentuk-pakaian-ihram",
+            "patterns": [
+                "Bagaimana bentuk pakaian ihram bagi laki-laki dan perempuan?",
+                "Apa yang harus dikenakan saat berihram untuk laki-laki dan perempuan?",
+                "Jelaskan pakaian ihram untuk pria dan wanita",
+                "Apa saja aturan pakaian ihram untuk laki-laki dan perempuan?",
+                "Bagaimana deskripsi pakaian ihram untuk kedua jenis kelamin?"
+            ],
+            "responses": [
+                "Pakaian ihram bagi laki-laki adalah dua helai kain yang tidak berjahit; satu helai dipakai sebagai sarung dan satu helai sebagai selendang (disandangkan di bahu). Pakaian ihram tersebut bagi laki-laki disunatkan berwarna putih, sedangkan bagi perempuan adalah pakaian biasa yang menutup seluruh badan, tetapi harus terbuka bagian muka dan kedua telapak tangannya."
+            ]
+        },
+        {
+            "tag": "ihram-menyembelih",
+            "patterns": [
+                "Apa boleh dalam keadaan ihram menyembelih hewan ternak untuk keperluan makan?",
+                "Dapatkah seseorang yang berihram menyembelih hewan untuk makan?",
+                "Apakah diizinkan menyembelih hewan ternak saat berihram?",
+                "Bolehkah menyembelih untuk konsumsi pribadi saat dalam ihram?",
+                "Apakah diperbolehkan menyembelih hewan ternak selama ihram?"
+            ],
+            "responses": [
+                "Boleh, karena yang dilarang adalah berburu dan membunuh binatang buruan darat yang halal serta binatang lain yang tidak membahayakan."
+            ]
+        },
+        {
+            "tag": "larangan-ihram",
+            "patterns": [
+                "Apa saja yang dilarang selama keadaan ihram?",
+                "Apa yang tidak boleh dilakukan saat berihram?",
+                "Apa larangan-larangan selama ihram?",
+                "Apa yang dilarang untuk laki-laki dan perempuan saat ihram?",
+                "Daftar larangan selama keadaan ihram?"
+            ],
+            "responses:": [
+                """Bagi laki-laki dilarang:\n
+              1. Memakai pakaian biasa.\n
+              2. Memakai kaos kaki atau sepatu yang menutupi mata kaki dan tumit.\n
+              3. Menutup kepala yang melekat seperti: topi atau peci dan sorban. \n
+              Bagi perempuan dilarang: \n
+              1. Menutup kedua telapak tangan dengan kaos tangan. \n
+              2. Menutup muka dengan cadar. \n
+              Larangan selama ihram bagi laki-laki dan perempuan adalah: \n
+              1. Memakai wangi-wangian kecuali yang sudah dipakai di badan sebelum niat haji/umrah. \n
+              2. Memotong kuku dan mencukur atau mencabut rambut dan bulu badan. \n
+              3. Memburu dan menganiaya/ membunuh binatang dengan cara apapun, kecuali binatang yang membahayakan boleh dibunuh. \n
+              4. Menikah, menikahkan atau meminang perempuan untuk dinikahi. \n
+              5. Bercumbu atau bersetubuh. \n
+              6. Mencaci, bertengkar atau mengucapkan kata-kata kotor."""
+            ]
+        },
+        {
+            "tag": "ibadah-perempuan-haid",
+            "patterns": [
+                "Apa saja ibadah yang boleh dilakukan oleh perempuan selama haid dalam ibadah haji?",
+                "Ibadah apa yang dapat dilakukan wanita haid saat haji?",
+                "Kegiatan haji apa yang diizinkan bagi perempuan yang sedang haid?",
+                "Apa yang dapat dilakukan perempuan haid selama pelaksanaan haji?",
+                "Kegiatan haji apa yang terbatas bagi wanita yang sedang menstruasi?"
+            ],
+            "responses": [
+                "Semua ibadah boleh dilakukan, kecuali shalat dan thawaf."
+            ]
+        },
+        {
+            "tag": "ihram-haji-umrah-miqat",
+            "patterns": [
+                "Apakah boleh berihram haji/umrah sebelum sampai miqat?",
+                "Bisakah saya berihram untuk haji atau umrah sebelum mencapai miqat?",
+                "Apakah diperbolehkan berihram sebelum miqat?",
+                "Bolehkah memulai ihram sebelum tiba di miqat untuk haji atau umrah?",
+                "Kapan boleh berihram untuk haji atau umrah sebelum miqat?"
+            ],
+            "responses": [
+                "Boleh berihram haji/umrah sebelum sampai miqat. Menurut Abu Hanifah hukumnya lebih utama."
+            ]
+        },
+        {
+            "tag": "hukum-haji-melewati-miqat-makani",
+            "patterns": [
+                "Apa hukumnya jika jemaah haji melewati miqat makani tanpa berihram umrah/haji karena lupa atau tidak tahu?",
+                "Bagaimana jika seseorang melewati miqat tanpa ihram karena ketidaktahuan?",
+                "Apa yang harus dilakukan jika melintasi miqat tanpa berihram karena lupa?",
+                "Hukum apa yang berlaku jika terlewati miqat tanpa ihram?",
+                "Apa konsekuensi melewati miqat tanpa ihram karena tidak tahu?"
+            ],
+            "responses": [
+                """
+              Apabila jemaah haji melewati miqat makani tanpa ihram urmah/haji, hukumnya wajib membayar dam isa\'ah (dam kesalahan) atau mengambil cara lain, yaitu: \n
+              1. Kembali lagi ke miqat yang dilewati tadi, sebelum melaksanakan salah satu kegiatan ibadah umrah/haji. \n
+              2. Mengambil miqat haji yang terdekat dengan Tanah Haram, bukan Tan\'im, Jir\'anah, dan Hudaibiya, tetapi di Rabigh/ Jeddah. \n
+              3. Berniat ihram dari tempat dia teringat (menyadari). Cara ini dikenakan dam denda (dam isa\'ah).
+              """
+            ]
+        },
+        {
+            "tag": "hukum-orang-sakit-ingin-haji",
+            "patterns": [
+                "Apa hukumnya orang sakit yang dibawa ke kota Makkah, sebelumnya dia berkeinginan melaksanakan ibadah haji/umrah?",
+                "Bagaimana hukumnya jika seseorang sakit ingin melaksanakan haji atau umrah?",
+                "Apa yang harus dilakukan oleh orang sakit yang ingin haji tetapi takut tidak bisa menyelesaikan?",
+                "Apa prosedur bagi orang sakit yang ingin berhaji atau berumrah?",
+                "Hukum apa yang berlaku untuk orang sakit yang dibawa ke Makkah dengan niat haji?"
+            ],
+            "responses": [
+                """Wajib memasuki kota Makkah dalam keadaan ihram, akan tetapi dianjurkan isytirath (ihram bersyarat). Apabila karena penyakitnya terpaksa tidak dapat menyelesaikan hajinya, maka boleh ia ber-tahallul (melepas ihramnya) tanpa membayar dam, dan apabila akan melaksanakan hajinya nanti dia mengambil miqat dari rumah sakit atau rumah kediaman. \n
+              Niat ihram haji bersyarat adalah sebagai berikut: \n
+              لَبَّيْكَ اللهُم حَبًّا فَإِنْ حَبَسَنِيْ حَابِسَ اللَّهُمَّ فَمَحِلِّي حَيْثُ حَبَسَنِي \n
+              Latin: Labbaika Allahumma hajjan fa in habasani habisun Allahumma fa mahilli haitsu habasani. \n
+              Artinya: Aku sambut panggilan-Mu ya Allah untuk berhaji. Tetapi jika aku terhalang oleh sesuatu, ya Allah, maka aku akan bertaḥallul ditempat aku terhalang itu. \n
+
+              Apabila penyakitnya tidak memungkinkan untuk melaksanakan ibadah (thawaf-sa\'i), maka dianjurkan tidak perlu diihramkan dengan niat kepergian ke Makkah sebagai perawatan/pengobatan lanjutan (rujukan sakit).
+              """
+            ]
+        },
+        {
+            "tag": "buka-kain-ihram-sakit",
+            "patterns": [
+                "Apa hukumnya membuka kain ihram jemaah haji sakit karena alasan perawatan?",
+                "Apa yang harus dilakukan jika perlu membuka ihram karena sakit?",
+                "Hukum membuka kain ihram karena sakit saat haji?",
+                "Apakah diizinkan untuk melepas ihram karena kondisi kesehatan?"
+            ],
+            "responses": [
+                "Boleh karena darurat. Pada saat sudah memungkinkan, wajib mengenakan kembali kain ihramnya tanpa dam dan tidak perlu niat (ihram) lagi. "
+            ]
+        },
+        {
+            "tag": "perbedaan-jamaah-sakit",
+            "patterns": [
+                "Apkah perbedaan antara jemaah haji sakit yang memasuki kota Makkah untuk alasan pengobatan dalam keadaan ihram dan tidak?",
+                "Bagaimana hukumnya jemaah haji sakit yang masuk Makkah dengan atau tanpa ihram?",
+                "Apa konsekuensi bagi jemaah haji sakit yang memasuki Makkah dalam ihram dibandingkan yang tidak?",
+                "Apa bedanya masuk Makkah dalam ihram atau tidak bagi jemaah yang sakit?",
+                "Apa implikasi berihram atau tidak saat jemaah sakit memasuki Makkah?"
+            ],
+            "responses": [
+                "Apabila jemaah haji sakit memasuki kota Makkah dengan keadaan ihram dan mati dalam keadaan ihram, maka dia telah mendapatkan pahala hajinya, dan apabila memasuki kota Makkah tanpa ihram, maka dia mati bukan dalam keadaan berhaji (Hadis dari Ibnu Abbas.)"
+            ]
+        },
+        {
+            "tag": "hukum-membatalkan-ihram",
+            "patterns": [
+                "Apakah hukumnya orang yang sudah ihram dari miqat, akan tetapi karena sesuatu hal terpaksa membatalkan ihramnya?",
+                "Apa konsekuensi jika seseorang terpaksa membatalkan ihram setelah berniat dari miqat?",
+                "Bolehkah membatalkan ihram setelah sudah niat dari miqat dan apa hukumannya?",
+                "Hukum apa yang berlaku jika seseorang membatalkan ihramnya setelah berniat dari miqat?",
+                "Apa yang harus dilakukan jika harus membatalkan ihram setelah sudah dimulai dari miqat?"
+            ],
+            "responses": [
+                "Hukumnya wajib membayar dam dengan memotong seekor kambing."
+            ]
+        },
+        {
+            "tag": "anjuran-setelah-ihram",
+            "patterns": [
+                "apa yang dianjurkan setelah berihram dari miqat?",
+                "Apa yang harus dilakukan setelah memulai ihram di miqat?",
+                "Kegiatan apa yang disarankan setelah seseorang berihram?",
+                "Apa yang sebaiknya dibaca atau dilakukan setelah berihram?",
+                "Tindakan apa yang dianjurkan setelah mengambil ihram dari miqat?"
+            ],
+            "responses": [
+                "setelah berihram, dianjurkan membaca talbiyah, shalawat, dan doa."
+            ]
+        },
+        {
+            "tag": "baca-talbiyah-rumah",
+            "patterns": [
+                "Apakah boleh membaca talbiyah sejak dari rumah kediaman, di perjalanan, dan di Asrama Haji Embarkasi?",
+                "Bolehkah membaca talbiyah sebelum memulai ihram?",
+                "Apakah diperbolehkan mengucapkan talbiyah dari rumah sebelum ihram?",
+                "Dapatkah talbiyah dibaca sebelum berihram di miqat?",
+                "Bolehkah mengucapkan talbiyah selama perjalanan menuju miqat?"
+            ],
+            "responses": [
+                "Boleh, hanya saja tidak disertai niat ihram haji/umrah. Pendapat lain mengatakan, belum boleh karena talbiyah merupakan bagian dari ihram."
+            ]
+        },
+        {
+            "tag": "baca-doa-suara",
+            "patterns": [
+                "Mana yang lebih afdal (utama) membaca talbiyah, doa, dan zikir dengan suara keras atau pelan (sir)?",
+                "Sebaiknya membaca talbiyah dengan suara keras atau pelan?",
+                "Apakah lebih utama zikir dan doa dibaca keras atau pelan selama haji?",
+                "Bagaimana cara terbaik membaca doa dan talbiyah selama haji, keras atau pelan?",
+                "Haruskah talbiyah dibaca dengan suara keras atau bisa pelan?"
+            ],
+            "responses": [
+                "Membaca doa dan zikir diutamakan dengan sir (suara tidak nyaring). Tetapi membaca talbiyah bagi laki-laki diutamakan dengan bersuara keras/nyaring (jahr), sedangkan bagi perempuan dengan sir."
+            ]
+        },
+        {
+            "tag": "hukum-motong-rambut-kuku",
+            "patterns": [
+                "Apa hukumnya memotong/mencukur/ rambut, memotong kuku, atau memakai wangi-wangian dalam keadaan ihram?",
+                "Bolehkah memotong rambut atau kuku saat berihram?",
+                "Apa konsekuensi memakai parfum atau memotong rambut saat dalam ihram?",
+                "Apakah diperbolehkan memotong kuku atau mencukur rambut dalam keadaan ihram?",
+                "Hukuman apa yang diterima jika memotong rambut atau kuku dalam ihram?"
+            ],
+            "responses": [
+                "Hukumnya dilarang, memotong/mencukur/mencabut rambut. Memotong kuku atau memakai wangi-wangian dalam keadaan ihram wajib membayar fidyah (denda), dengan memilih salah satu diantara tiga, yaitu menyembelih seekor kambing atau bersedekah kepada 6 (enam) orang fakir miskin masing-masing 1/2 sa (2 mud = 1 1/2 kg) beras makanan pokok atau berpuasa tiga hari."
+            ]
+        },
+        {
+            "tag": "bicara-kotor-fasiq",
+            "patterns": [
+                "Apakah boleh berbicara dengan kata-kata kotor (keji) atau berbuat fasiq sewaktu melakukan ibadah haji?",
+                "Bolehkah menggunakan kata-kata kasar atau berperilaku fasiq selama haji?",
+                "Apa konsekuensi berbicara kasar atau berbuat fasiq saat haji?",
+                "Apa yang terjadi jika seseorang berbicara keji atau melakukan tindakan fasiq saat berhaji?",
+                "Diperbolehkan kah berbicara tidak sopan atau melakukan kesalahan saat di haji?"
+            ],
+            "responses": [
+                "Tidak diperbolehkan, dan apabila hal itu dilakukan hajinya sah, tidak membayar dam/fidyah, akan tetapi menggugurkan pahala hajinya."
+            ]
+        },
+        {
+            "tag": "menutup-kepala-payung",
+            "patterns": [
+                "Apakah boleh laki-laki yang sedang berihram menutup kepala dengan payung?",
+                "Diperbolehkan kah menggunakan payung untuk menutup kepala saat berihram?",
+                "Bolehkah pria dalam ihram menggunakan payung?",
+                "Apakah memakai payung untuk menutup kepala diperbolehkan dalam ihram?",
+                "Bolehkah menutup kepala dengan payung saat dalam keadaan ihram?"
+            ],
+            "responses": [
+                "Boleh, menutup kepala dengan sesuatu yang tidak menempel di kepala, seperti payung."
+            ]
+        },
+        {
+            "tag": "haji-perhiasan",
+            "patterns": [
+                "Apakah boleh jemaah haji yang sedang berihram memakai jam tangan, cincin atau sabuk?",
+                "Diperbolehkan kah memakai aksesori seperti jam tangan dan cincin saat berihram?",
+                "Bolehkah menggunakan sabuk saat berihram dalam haji?",
+                "Apakah jam tangan dan cincin dianggap pakaian saat berihram?",
+                "Apa saja jenis perhiasan yang bisa dipakai saat berihram?"
+            ],
+            "responses": [
+                "Boleh, jemaah haji yang sedang berihram memakai jam tangan, cincin, dan sabuk, karena peralatan tersebut tidak termasuk pakaian."
+            ]
+        },
+        {
+            "tag": "ihram-kebersihan",
+            "patterns": [
+                "Apakah boleh jemaah haji yang sedang ihram menggunakan pasta gigi, sabun mandi, membunuh nyamuk dan lalat?",
+                "Diperbolehkan kah menggunakan produk kebersihan seperti pasta gigi dan sabun saat ihram?",
+                "Bolehkah membunuh nyamuk dan lalat saat berihram?",
+                "Apakah ada larangan menggunakan pasta gigi atau sabun selama berihram?",
+                "Apa aturan untuk mengatasi hama seperti nyamuk saat dalam ihram?"
+            ],
+            "responses": [
+                "Boleh dan tidak kena dam, karena bertujuan untuk kebersihan gigi dan merawat kesehatan (tidak untuk wangi-wangian). Demikian juga diperbolehkan membunuh nyamuk, lalat, dan binatang lain yang mengganggu."
+            ]
+        },
+        {
+            "tag": "ihram-rambut",
+            "patterns": [
+                "Apa hukumnya menyisir rambut dalam keadaan ihram?",
+                "Bolehkah menyisir rambut saat berihram?",
+                "hukum menyisir rambut dalam keadaan ihram",
+                "Apakah menyisir rambut diperbolehkan dalam ihram?",
+                "Apa konsekuensi menyisir rambut selama berihram?",
+                "Dapatkah saya menyisir rambut saya saat dalam keadaan ihram?"
+            ],
+            "responses": [
+                "Boleh, apabila berkeyakinan tidak akan merontokkan rambutnya, akan tetapi sebaiknya dihindari."
+            ]
+        },
+        {
+            "tag": "umrah-haji-tamattu-bersetubuh",
+            "patterns": [
+                "Apakah boleh suami-istri yang sudah menyelesaikan umrah bagi haji tamattu' bersetubuh (jima')?",
+                "Bolehkah berhubungan suami istri setelah menyelesaikan umrah dalam haji tamattu'?",
+                "Kapan suami istri diperbolehkan bersetubuh setelah melakukan umrah pada haji tamattu'?",
+                "Apakah diizinkan berhubungan intim setelah tahallul tsani dalam haji tamattu'?",
+                "Setelah umrah tamattu', kapan suami-istri boleh melakukan hubungan seksual?"
+            ],
+            "responses": [
+                "Boleh, apabila sudah menyelesaikan tawaf, sa'i dan cukur"
+            ]
+        },
+        {
+            "tag": "haji-bersetubuh",
+            "patterns": [
+                "Apakah boleh suami-istri yang sedang menunaikan ibadah haji bersetubuh (jima')?",
+                "Bolehkah suami istri melakukan hubungan seksual saat melaksanakan haji?",
+                "Kapan suami istri yang sedang haji diizinkan untuk bersetubuh?",
+                "Apakah diizinkan berhubungan intim selama haji?",
+                "Ketentuan apa yang mengatur hubungan suami istri selama haji?"
+            ],
+            "responses": [
+                "Boleh, apabila tidak sedang dalam keadaan ihram dan sudah tahallul tsani."
+            ]
+        },
+        {
+            "tag": "pengertian-miqat-makani",
+            "patterns": [
+                "Apa yang dimaksud miqat makani?",
+                "Apa pengertian miqat makani?",
+                "Mengapa miqat makani penting untuk ihram?",
+                "Definisi miqat makani apa?",
+                "Apa yang dimaksud dengan miqat makani?"
+            ],
+            "responses": [
+                "Miqat makani adalah tempat yang dijadikan batas untuk memulai ihram haji/umrah."
+            ]
+        },
+        {
+            "tag": "letak-miqat-makani",
+            "patterns": [
+                "Di mana letak miqat makani itu?",
+                "Apa saja lokasi miqat untuk memulai ihram?",
+                "Di mana saja miqat makani berada?",
+                "Sebutkan tempat-tempat miqat untuk haji dan umrah?",
+                "Di mana penduduk Madinah, Syam, Najad, Yaman, dan Iraq memulai ihram?"
+            ],
+            "responses": [
+                """Letak miqat makani ada 5 (lima) tempat, yaitu:
+              1. Zulhulaifah (Bir Ali), tempat miqat-nya bagi penduduk Madinah dan yang melewatinya. \n
+              2. Juhfah, miqat-nya penduduk Syam dan yang melewatinya. \n
+              3. Qarnul Manazil (as-Sail), miqat-nya penduduk Najad dan yang melewatinya. \n
+              4. Yalamlam, miqat-nya penduduk Yaman dan yang melewatinya. \n
+              5. Zatu Irqin, miqat-nya penduduk Iraq dan yang melewatinya. \n
+              Tempat-tempat tersebut di atas telah ditetapkan oleh Rasulullah SAW sebagai miqat makani untuk berhaji/umrah bagi penduduk dan bagi setiap orang yang melewatinya walaupun bukan termasuk penduduknya."""
+            ]
+        },
+        {
+            "tag": "miqat-lokasi-indonesia",
+            "patterns": [
+                "Di manakah letak mīqāt makānī jemaah haji Indonesia?",
+                "Apa mīqāt makānī untuk jemaah haji Indonesia?",
+                "Di mana jemaah haji Indonesia gelombang I dan II harus berihram?",
+                "Lokasi mīqāt makānī bagi jemaah haji Indonesia dari Madinah dan Makkah dimana?",
+                "Bagaimana penentuan mīqāt makānī untuk jemaah haji Indonesia?"
+            ],
+            "responses": [
+                "Letak mīqāt makānī bagi jemaah haji Indonesia gelombang I yang datang dari Madinah adalah Zulhulaifah (Bir Ali). Untuk jemaah haji Indonesia gelombang II yang langsung ke Makkah, mīqāt makānīnya adalah di atas udara sejajar dengan Yalamlam/Qarnul Manazil. Jika dianggap sulit, mīqāt dapat dilaksanakan di Asrama Haji Embarkasi atau setelah sampai di Bandar Udara internasional King Abdul Aziz (KAIA) Jeddah."
+            ]
+        },
+        {
+            "tag": "miqat-umrah-makkah",
+            "patterns": [
+                "Apakah Tan’im, Ji’ranah, dan Hudaibiyah itu Miqat Haji?",
+                "Apakah Tan’im, Ji’ranah, dan Hudaibiyah adalah miqat untuk haji?",
+                "Bisakah Tan’im, Ji’ranah, dan Hudaibiyah dijadikan miqat haji?",
+                "Untuk apa Tan’im, Ji’ranah, dan Hudaibiyah digunakan sebagai miqat?",
+                "Apa fungsi Tan’im, Ji’ranah, dan Hudaibiyah dalam haji dan umrah?"
+            ],
+            "responses": [
+                "Tan’im, Ji’ranah, dan Hudaibiyah bukan miqat haji. Ketiganya merupakan miqat umrah bagi penduduk Makkah atau bagi orang yang mukim (tinggal) di Makkah, termasuk jemaah haji yang akan melaksanakan umrah. Ini berarti lokasi-lokasi tersebut digunakan untuk memulai ihram bagi umrah, bukan untuk haji."
+            ]
+        },
+        {
+            "tag": "hukum-niat-ihram",
+            "patterns": [
+                "Apakah niat ihram harus dilafalkan atau cukup diniatkan dalam batin?",
+                "Haruskah melafalkan niat saat memulai ihram untuk haji atau umrah?",
+                "Apakah wajib melafazkan niat ihram?"
+            ],
+            "responses": [
+                """
+    Para ulama' berbeda pendapat terkait dengan hukum melafalkan niat ihram. Menurut Mazhab Syafi'i dan Hanbali disunatkan melafazkan niat ihram haji atau umrah. Sedangkan Mazhab Hanafi mewajibkan melafazkan niat ihram.
+    [Sumber: Fiqih Haji Komprehensif, Kemeterian Agama, Tahun 2015, hlm. 129, dikutip dari Muḥyiddīn al-Nawawi, al-Majmu' Syarḥ al-Muhażżab, (Madinah: Maktabah Salafiyah, t. th). Juz.VII, hlm. 225
+                ]
+    """
+            ]
+        },
+        {
+            "tag": "keadaan-suci-niat-ihram",
+            "patterns": [
+                "Apakah harus suci ketika melafalkan niat ihram?",
+                "Apakah keadaan suci diperlukan untuk niat ihram?",
+                "Apakah wajib berwudu sebelum niat ihram?",
+                "Haruskah saya dalam keadaan wudhu untuk berihram?",
+                "Perlukah mandi sebelum melakukan niat ihram?",
+                "Apa yang dianjurkan tentang kebersihan sebelum niat ihram?",
+                "Apakah saya perlu berwudu untuk mulai ihram?",
+                "Adakah keharusan suci sebelum berihram?",
+                "Bolehkah niat ihram tanpa wudu?",
+            ],
+            "responses": [
+                """
+    Niat ihram tidak dipersyaratkan harus dalam keadaan suci. Namun, berada dalam kondisi suci saat niat ihram merupakan bentuk keutamaan amal, mengingat sebelum niat ihram disunahkan untuk mandi sunnah.
+    Hal ini berdasarkan hadis riwayat Ibnu Umar: 'Diantara sunah, bahwa seseorang (hendaknya) mandi apabila hendak berihram.' (HR. al-Bazzar dari Ibnu Umar).
+
+    Selain itu, niat ihram juga dilakukan setelah melaksanakan salat sunat ihram, yang secara umum, niat ihram memiliki keutamaan jika dilakukan dalam keadaan suci.
+
+    [Sumber: Fiqih Haji Komprehensif, Kementerian Agama, Tahun 2015, hlm. 126-127
+                ].
+    """,
+            ],
+        },
+        {
+            "tag": "perbaharui-niat-ihram",
+            "patterns": [
+                "Apakah boleh memperbaharui niat ihram di bandara Jeddah?",
+                "Bolehkah mengulang niat ihram jika ada keraguan saat di pesawat?",
+                "Apakah memperbaharui niat ihram di Jeddah diperbolehkan?",
+                "Bolehkah menetapkan niat ihram ulang di miqat kedua?",
+                "Apakah diperkenankan mengulangi niat ihram di luar tanah haram?"
+            ],
+            "responses": [
+                """
+    Imam Malik membolehkan memperbaharui niat ihram di miqat kedua, selama masih berada di luar tanah haram, seperti yang dijelaskan dalam 'Fiqh al-'Ibadat 'ala al-mazhab al-Maliki'.
+
+    Menurut Fatwa MUI nomor 80 dan 81, Jeddah dianggap sebagai miqat dengan alasan jarak dan muhadzah, yang berarti jamaah dapat mengambil miqat di luar bandara selama masih dalam jarak 2 marhalah (-+89,
+                4 km dari Masjidil Haram), seperti tercatat dalam Buku Pedoman Konsultan Ibadah, Kementerian Agama 2019, halaman 112.
+    """
+            ]
+        },
+        {
+            "tag": "ubah-niat-ihram-haid",
+            "patterns": [
+                "Apa yang harus dilakukan jika masih haid menjelang wukuf dan belum umrah?",
+                "Bolehkah mengubah niat ihram dari tamattu' menjadi ifrad jika terhalang haid?",
+                "Apa hukumnya mengubah niat ihram karena menstruasi?",
+                "Bagaimana jika seorang wanita tidak bisa melakukan umrah karena haid sebelum hari Arafah?",
+                "Hukum apa yang berlaku jika wanita tidak bisa melaksanakan umrah karena menstruasi sebelum wukuf?"
+            ],
+            "responses": [
+                """
+    Bagi jamaah wanita yang tidak dapat melaksanakan umrah karena haid sampai menjelang hari wukuf, hukum memperbolehkan mengubah niat ihram. Jamaah tersebut boleh mengubah niat dari haji tamattu' menjadi haji ifrad, atau dari umrah ke haji dan umrah (Qiran). Akibat perubahan niat ini, jamaah tersebut dikenakan denda (Dam) yang melibatkan penyembelihan seekor kambing sebagai kompensasi.
+
+    Referensi: Buku Panduan Konsultan Ibadah, Kementerian Agama RI 2019, halaman 113.
+    """
+            ]
+        },
+        {
+            "tag": "ihram-dibatalkan-karena-haid",
+            "patterns": [
+                "apa hukumnya jika membatalkan niat ihram karena haid?",
+                "bolehkah membatalkan ihram saat haid?",
+                "hukum membatalkan ihram karena haid bagaimana?",
+                "jika haid apakah bisa membatalkan ihram?",
+                "apa konsekuensi membatalkan ihram karena haid?",
+                "hukum bagi wanita yang membatalkan ihram saat haid?",
+                "dampak hukum membatalkan ihram karena menstruasi",
+                "apa yang terjadi jika membatalkan ihram karena menstruasi?"
+            ],
+            "responses": [
+                """
+        Membatalkan niat ihram karena haid hukumnya tidak boleh.
+        Jika seorang wanita membatalkan ihram karena haid, maka ia wajib membayar dam dengan memotong seekor kambing.
+        Haid tidak menjadi penghalang bagi seorang wanita yang ihram untuk melanjutkan umrahnya, kecuali untuk tawaf yang harus ditunda sampai dia suci.
+        (Sumber: Buku Panduan Konsultan Ibadah, Kementerian Agama RI 2019, halaman 113)
+        """
+            ]
+        },
+        {
+            "tag": "pengertian-thawaf",
+            "patterns": [
+                "Apa yang dimaksud thawaf?",
+                "Bagaimana thawaf dilakukan di Ka'bah?",
+                "Jelaskan proses melakukan thawaf?",
+                "Apa itu thawaf dalam konteks ibadah haji?",
+                "Berapa kali dan bagaimana seseorang harus thawaf?"
+            ],
+            "responses": [
+                "Thawaf adalah mengelilingi Ka’bah sebanyak 7 (tujuh) kali putaran dengan berjalan kaki, di mana Ka’bah selalu berada di sebelah kirinya. Thawaf dimulai dan diakhiri pada arah sejajar dengan Hajar Aswad. Bagi yang uzur, seperti mereka yang tidak dapat berjalan, diizinkan menggunakan kursi roda. Kursi roda dapat digunakan untuk thawaf di lantai 2, lantai 3, dan lantai 4 Masjidil Haram. Selain itu, skuter matik juga tersedia di lantai tiga untuk memfasilitasi mereka yang membutuhkan."
+            ]
+        },
+        {
+            "tag": "thawaf-sunah-masjidil-haram",
+            "patterns": [
+                "Apakah setiap orang yang masuk Masjidil Haram harus thawaf sunah?",
+                "Haruskah melakukan thawaf saat masuk Masjidil Haram?",
+                "Apakah thawaf sunah wajib dilakukan ketika memasuki Masjidil Haram?",
+                "Apakah thawaf sunah diperlukan setiap kali masuk ke Masjidil Haram?",
+                "Perlukah melakukan thawaf setiap kali memasuki Masjidil Haram?"
+            ],
+            "responses": [
+                "Tidak harus thawaf, hanya saja bila memungkinkan dapat melaksanakan thawaf sebagai pengganti shalat sunat tahiyyatul masjid. Ini merupakan praktik yang dianjurkan untuk menghormati kekhusukan dan keagungan Masjidil Haram."
+            ]
+        },
+        {
+            "tag": "syarat-kebersihan-thawaf",
+            "patterns": [
+                "Apakah setiap orang melakukan thawaf harus suci dari hadas besar atau kecil?",
+                "Haruskah seseorang dalam keadaan suci untuk melakukan thawaf?",
+                "Apakah kebersihan dari hadas kecil dan besar diperlukan untuk thawaf?",
+                "Bolehkah melakukan thawaf tanpa suci dari hadas?",
+                "Apa syarat kebersihan untuk melakukan thawaf di Ka'bah?"
+            ],
+            "responses": [
+                "Ya, setiap orang yang melakukan thawaf harus suci dari hadas besar dan hadas kecil. Hal ini berarti bahwa sebelum melakukan thawaf, seseorang harus telah melakukan mandi besar jika dalam keadaan junub atau harus memperbarui wudhu jika telah batal, untuk memastikan bahwa mereka berada dalam keadaan suci."
+            ]
+        },
+        {
+            "tag": "ulangi-thawaf-wudu-batal",
+            "patterns": [
+                "Apakah jemaah haji yang batal wudunya harus mengulangi thawafnya?",
+                "Haruskah mengulang thawaf jika wudu batal?",
+                "Apa yang dilakukan jika wudu batal saat thawaf?"
+            ],
+            "responses": [
+                "Jika wudu batal selama thawaf, wajib berwudu dan mengulang putaran tawaf yang batal dari arah sejajar Hajar Aswad atau dari tempat thawaf dimulai. Putaran tawaf sebelumnya tetap sah."
+            ]
+        },
+        {
+            "tag": "thawaf-waktu-shalat",
+            "patterns": [
+                "Apakah orang yang thawaf harus menghentikan thawafnya apabila datang waktu shalat wajib yang dilakukan berjamaah?",
+                "Haruskah thawaf dihentikan untuk shalat berjamaah?",
+                "Apa yang dilakukan saat ada shalat wajib selama thawaf?"
+            ],
+            "responses": [
+                "Apabila datang waktu shalat wajib yang dilakukan berjamaah, orang yang melakukan thawaf harus menghentikan thawafnya untuk mengikuti shalat berjamaah. Putaran thawaf yang belum selesai dapat diteruskan setelah shalat dari tempat di mana ia terakhir kali berada sebelum memasuki barisan shalat."
+            ]
+        },
+        {
+            "tag": "menghadap-kabah-thawaf",
+            "patterns": [
+                "Wajibkah menghadap sepenuh badan ke Ka’bah ketika akan memulai thawaf?",
+                "Apakah perlu menghadap Ka’bah saat memulai thawaf?",
+                "Bagaimana posisi badan saat memulai thawaf?"
+            ],
+            "responses": [
+                "Menghadap sepenuh badan ke Ka’bah ketika akan memulai thawaf tidak wajib, tetapi disunahkan apabila keadaan memungkinkan. Jika tidak memungkinkan, cukup dengan memiringkan badan dan menghadap muka ke arah Ka’bah serta melambaikan tangan dan mengecupnya sambil mengucapkan: Bismillāhi Wallāhu Akbar."
+            ]
+        },
+        {
+            "tag": "isyarat-rukun-yamani",
+            "patterns": [
+                "Apakah disunahkan mengusap atau isyarat pada waktu melewati Rukun Yamani?",
+                "Haruskah menyentuh atau melambaikan tangan ke Rukun Yamani saat thawaf?",
+                "Bagaimana cara berinteraksi dengan Rukun Yamani saat thawaf?"
+            ],
+            "responses": [
+                "Disunahkan melambaikan tangan ke arah Rukun Yamani saat melewatinya selama thawaf. Tidak perlu mencium tangan setelah melambaikan."
+            ]
+        },
+        {
+            "tag": "ramal-thawaf",
+            "patterns": [
+                "Apa hukumnya ramal bagi laki-laki pada putaran thawaf ke 1 s.d. 3?",
+                "Apakah disunahkan lari-lari kecil atau ramal dalam thawaf untuk laki-laki?",
+                "Bolehkah laki-laki melakukan ramal dalam putaran awal thawaf?"
+            ],
+            "responses": [
+                "Disunahkan bagi laki-laki untuk melakukan ramal (lari-lari kecil) selama putaran pertama hingga ketiga thawaf, bila situasinya memungkinkan. Namun, ramal tidak disunahkan bagi perempuan."
+            ]
+        },
+        {
+            "tag": "ramal-thawaf",
+            "patterns": [
+                "Apa hukumnya ramal bagi laki-laki pada putaran thawaf ke 1 s.d. 3?",
+                "Apakah disunahkan lari-lari kecil atau ramal dalam thawaf untuk laki-laki?",
+                "Bolehkah laki-laki melakukan ramal dalam putaran awal thawaf?"
+            ],
+            "responses": [
+                "Disunahkan bagi laki-laki untuk melakukan ramal (lari-lari kecil) selama putaran pertama hingga ketiga thawaf, bila situasinya memungkinkan. Namun, ramal tidak disunahkan bagi perempuan."
+            ]
+        },
+        {
+            "tag": "lokasi-shalat-sunat-thawaf",
+            "patterns": [
+                "Di manakah melaksanakan shalat sunat thawaf?",
+                "Di mana sebaiknya shalat sunat thawaf dilakukan?",
+                "Bisakah shalat sunat thawaf dilakukan di luar Maqam Ibrahim?"
+            ],
+            "responses": [
+                "Shalat sunat thawaf idealnya dilakukan di belakang Maqam Ibrahim. Jika tidak mungkin, maka dapat dilakukan di mana saja, baik di dalam maupun di luar Masjidil Haram, dan baik di Tanah Haram maupun di luar Tanah Haram."
+            ]
+        },
+        {
+            "tag": "sa-i-setelah-thawaf",
+            "patterns": [
+                "Apakah setiap thawaf harus diikuti dengan sa'i?",
+                "Kapan sa'i perlu dilakukan setelah thawaf?",
+                "Haruskah sa'i selalu mengikuti thawaf?"
+            ],
+            "responses": [
+                "Tidak semua thawaf harus diikuti dengan sa'i. Thawaf sunat, misalnya, tidak memerlukan sa'i setelahnya."
+            ]
+        },
+        {
+            "tag": "jenis-thawaf-dengan-sa-i",
+            "patterns": [
+                "Ada berapa macam thawaf yang diikuti sa'i?",
+                "Jenis-jenis thawaf apa saja yang memerlukan sa'i?",
+                "Kapan sa'i diperlukan setelah thawaf?"
+            ],
+            "responses": [
+                """Ada tiga macam thawaf yang diikuti sa'i:\n
+               a) Thawaf ifadah, yang merupakan rukun haji bagi haji tamattu' dan bagi haji ifrad atau haji qiran yang belum sa'i setelah thawaf qudum.\n
+               b) Thawaf qudum bagi haji ifrad atau haji qiran.\n
+               c) Thawaf umrah.
+              """
+            ]
+        },
+        {
+            "tag": "jenis-thawaf",
+            "patterns": [
+                "Ada berapa macam thawaf itu?",
+                "Berapa jenis thawaf yang ada?",
+                "Apa saja macam-macam thawaf?",
+                "Sebutkan jenis-jenis thawaf yang ada",
+                "Berapa dan apa saja jenis thawaf?"
+            ],
+            "responses": [
+                "Thawaf ada 5 (lima) macam, yaitu:\na. Thawaf qudum: Thawaf yang dilakukan ketika memasuki Makkah untuk pertama kali dalam rangka haji.\nb. Thawaf rukun (ifadah dan umrah): Thawaf yang merupakan bagian penting dari ritus haji dan umrah.\nc. Thawaf sunat: Thawaf yang dilakukan sebagai ibadah sunnah, tidak wajib.\nd. Thawaf wada’: Thawaf perpisahan yang dilakukan sebelum meninggalkan Makkah.\ne. Thawaf nadzar: Thawaf yang dilakukan untuk memenuhi nazar atau janji yang telah dibuat."
+            ]
+        },
+        {
+            "tag": "batal-wudu-tawaf",
+            "patterns": [
+                "Apakah batal wudunya apabila laki-laki dan perempuan bersentuhan badan ketika tawaf?",
+                "Apa pengaruh sentuhan antara pria dan wanita saat thawaf terhadap wudhu?",
+                "Bisakah wudhu batal jika bersentuhan saat melakukan thawaf?",
+                "Apakah sentuhan kulit antara laki-laki dan wanita saat thawaf membatalkan wudhu?"
+            ],
+            "responses": [
+                """
+              Persentuhan kulit antara laki-laki dan wanita ajnabi saat thawaf dapat membatalkan wudhu menurut madzhab Syafi’i.\n
+              Namun, menurut madzhab Maliki, hal tersebut tidak membatalkan wudhu. Perpindahan madzhab atau talfiq dalam kondisi ini diperbolehkan karena dharurat syar'i, tetapi dalam hal wudhu, talfiqnya dilakukan dengan mengikuti imam Malik. Yaitu wudhunya harus menggosok-gosok anggota wudhu dan menyapu seluruh kepala. Karena itu, disarankan bagi jemaah haji agar wudhunya mengikuti cara Imam Malik saat hendak tawaf.
+              """
+            ]
+        },
+        {
+            "tag": "thawaf-qudum",
+            "patterns": [
+                "Apakah yang dimaksud thawaf qudum?",
+                "Apa itu thawaf qudum?",
+                "Jelaskan apa yang dimaksud dengan thawaf qudum",
+                "Definisi thawaf qudum apa?"
+            ],
+            "responses": [
+                "Thawaf qudum adalah thawaf yang dilakukan oleh orang yang baru tiba di Makkah sebagai penghormatan terhadap Ka’bah. Ini adalah salah satu dari beberapa jenis thawaf dan dilakukan sebagai simbol penghormatan dan pengagungan kepada Baitullah segera setelah kedatangan di Makkah."
+            ]
+        },
+        {
+            "tag": "keharusan-thawaf-qudum",
+            "patterns": [
+                "Apakah seseorang yang baru tiba di Makkah wajib melakukan thawaf qudum?",
+                "Haruskah melakukan thawaf qudum ketika tiba di Makkah?",
+                "Apakah thawaf qudum wajib bagi semua jemaah haji?"
+            ],
+            "responses": [
+                "Hukum thawaf qudum adalah sunat, namun bagi yang melakukan haji tamattu’, thawaf qudum-nya sudah termasuk dalam thawaf umrahnya."
+            ]
+        },
+        {
+            "tag": "definisi-thawaf-ifadah",
+            "patterns": [
+                "Apa yang dimaksud dengan thawaf ifadah?",
+                "Jelaskan apa itu thawaf ifadah?",
+                "Apa itu thawaf shadr atau thawaf ziarah?"
+            ],
+            "responses": [
+                "Thawaf ifadah adalah thawaf rukun haji, dikenal juga dengan thawaf shadr (inti) atau thawaf ziarah."
+            ]
+        },
+        {
+            "tag": "hukum-thawaf-ifadah",
+            "patterns": [
+                "Apa hukum thawaf ifadah?",
+                "Apakah thawaf ifadah wajib dalam haji?",
+                "Apa konsekuensi jika tidak melakukan thawaf ifadah?"
+            ],
+            "responses": [
+                "Hukumnya adalah sebagai salah satu rukun haji dan apabila tidak dikerjakan, maka tidak sah hajinya."
+            ]
+        },
+        {
+            "tag": "waktu-thawaf-ifadah",
+            "patterns": [
+                "Kapan waktu melaksanakan thawaf ifadah?",
+                "Apa waktu yang dianjurkan untuk thawaf ifadah?",
+                "Kapan batas waktu untuk melakukan thawaf ifadah?"
+            ],
+            "responses": [
+                "Thawaf ifadah dikerjakan setelah lewat tengah malam hari Nahar (tanggal 10 Dzulhijjah) sampai kapan saja, tetapi dianjurkan di hari-hari Tasyriq atau masih dalam bulan Dzulhijjah. Bagi seseorang yang karena ada halangan tertentu dapat melaksanakan kapan saja tanpa batas waktunya."
+            ]
+        },
+        {
+            "tag": "kondisi-setelah-haji-tanpa-thawaf-ifadah",
+            "patterns": [
+                "Bagaimana ketentuan orang yang telah selesai semua amalan hajinya kecuali thawaf ifadah?",
+                "Apa status orang yang belum melakukan thawaf ifadah setelah haji?",
+                "Apakah larangan yang masih berlaku bagi orang yang belum thawaf ifadah?"
+            ],
+            "responses": [
+                "Orang tersebut baru tahallul awwal, belum tahallul tsani, sehingga masih terkena larangan bersetubuh."
+            ]
+        },
+        {
+            "tag": "definisi-thawaf-umrah",
+            "patterns": [
+                "Apakah yang dimaksud thawaf umrah?",
+                "Apa itu thawaf umrah?",
+                "Jelaskan thawaf yang dikerjakan dalam umrah?"
+            ],
+            "responses": [
+                "Thawaf umrah adalah thawaf yang dikerjakan setiap melakukan umrah wajib atau umrah sunat."
+            ]
+        },
+        {
+            "tag": "definisi-thawaf-sunah",
+            "patterns": [
+                "Apakah yang dimaksud dengan thawaf sunah?",
+                "Apa itu thawaf sunat?",
+                "Jelaskan thawaf sunat?"
+            ],
+            "responses": [
+                "Thawaf sunat adalah thawaf yang dilakukan setiap saat ketika seseorang berada dalam Masjidil Haram tidak diikuti dengan sa’i dan yang bersangkutan mengenakan pakaian biasa."
+            ]
+        },
+        {
+            "tag": "definisi-thawaf-wada",
+            "patterns": [
+                "Apakah yang dimaksud thawaf wada’?",
+                "Apa itu thawaf wada’?",
+                "Jelaskan thawaf wada’?"
+            ],
+            "responses": [
+                "Thawaf wada’ adalah thawaf pamitan yang dilakukan oleh setiap orang yang telah selesai melakukan ibadah haji/umrah dan akan meninggalkan kota Makkah."
+            ]
+        },
+        {
+            "tag": "hukum-thawaf-wada",
+            "patterns": [
+                "Apakah hukum thawaf wada’?",
+                "Apa hukum melakukan thawaf wada’?",
+                "Apakah thawaf wada’ wajib?"
+            ],
+            "responses": [
+                "Hukum thawaf wada’ adalah wajib bagi setiap orang yang akan meninggalkan kota Makkah. Menurut pendapat Imam Malik, hukumnya mustahab (dianjurkan)."
+            ]
+        },
+        {
+            "tag": "waktu-thawaf-wada",
+            "patterns": [
+                "Kapankah thawaf wada’ dilakukan?",
+                "Kapan harus melakukan thawaf wada’?",
+                "Waktu yang tepat untuk thawaf wada’ kapan?"
+            ],
+            "responses": [
+                "Thawaf wada’ dilakukan setelah selesai melaksanakan ibadah haji/umrah pada waktu akan meninggalkan kota Makkah, baik akan pulang ke Tanah Air atau akan ziarah ke Madinah, yang tidak akan kembali lagi ke Makkah."
+            ]
+        },
+        {
+            "tag": "kembali-hotel-thawaf-wada",
+            "patterns": [
+                "Apakah boleh jemaah haji yang telah melakukan thawaf wada’ kembali ke Hotel?",
+                "Bolehkah kembali ke hotel setelah thawaf wada’?",
+                "Setelah thawaf wada’, boleh kembali ke hotel untuk apa?"
+            ],
+            "responses": [
+                "Boleh, jemaah haji yang telah melakukan thawaf wada’ boleh kembali ke Hotel untuk sesuatu keperluan, seperti untuk mengambil barang atau membuang hajat, menunggu bis atau menghindari terik panas matahari."
+            ]
+        },
+        {
+            "tag": "menginap-makkah-setelah-thawaf-wada",
+            "patterns": [
+                "Bolehkah setelah tawaf wada’ tidur di hotel dan harus langsung keluar dari Makkah?",
+                "Apakah boleh menginap di Makkah setelah melakukan thawaf wada’?",
+                "Setelah thawaf wada’, apakah harus langsung meninggalkan Makkah?"
+            ],
+            "responses": [
+                "Boleh menginap di Makkah setelah thawaf wada’ selama seseorang tersebut tidak dianggap mukim di Makkah. Menurut Imam Malik, Syafi'i, Abu Tsaur, dan Ahmad, seseorang dianggap mukim jika ia tinggal selama 4 hari. Menurut Abu Hanifah, seseorang tidak dianggap mukim dan tidak perlu mengulang thawaf wada’, bahkan jika tinggal di Makkah selama satu tahun, selama tidak berniat untuk menetap."
+            ]
+        },
+        {
+            "tag": "thawaf-setelah-haid-nifas",
+            "patterns": [
+                "Apakah hukumnya jemaah haji yang haid/nifasnya berhenti sementara, lalu dia bersuci (mandi) dan melakukan thawaf?",
+                "Bolehkah melakukan thawaf jika haid atau nifas berhenti sementara?",
+                "Apa yang harus dilakukan jika haid atau nifas berhenti dan ingin thawaf?"
+            ],
+            "responses": [
+                "Thawaf yang dilakukan setelah haid atau nifas berhenti sementara adalah sah dan tidak dikenakan dam, sekalipun darah haid atau nifasnya keluar lagi setelah melakukan thawaf."
+            ]
+        },
+        {
+            "tag": "thawaf-wada-saat-haid-nifas",
+            "patterns": [
+                "Apa hukumnya melakukan thawaf wada’ bagi perempuan yang sedang haid/nifas?",
+                "Haruskah wanita yang sedang haid atau nifas melakukan thawaf wada’?",
+                "Apa alternatif bagi wanita haid atau nifas yang tidak bisa melakukan thawaf wada’?"
+            ],
+            "responses": [
+                "Tidak wajib bagi perempuan yang sedang haid atau nifas untuk melakukan thawaf wada’. Cukup berdoa di depan pintu Masjidil Haram dan tidak dikenakan dam."
+            ]
+        },
+        {
+            "tag": "thawaf-wada-untuk-sakit-berat",
+            "patterns": [
+                "Apa hukumnya thawaf wada’ bagi jemaah haji yang sakit berat?",
+                "Haruskah melakukan thawaf wada’ jika sakit berat?",
+                "Bolehkah melewatkan thawaf wada’ karena sakit?"
+            ],
+            "responses": [
+                "Thawaf wada’ tidak wajib bagi jemaah haji yang sakit berat dan tidak dikenakan dam."
+            ]
+        },
+        {
+            "tag": "pengecualian-thawaf-wada",
+            "patterns": [
+                "Siapakah saja yang boleh meninggalkan thawaf wada’?",
+                "Apa saja pengecualian untuk tidak melakukan thawaf wada’?",
+                "Kriteria apa yang membebaskan seseorang dari thawaf wada’?"
+            ],
+            "responses": [
+                """Beberapa kelompok orang yang dibebaskan dari kewajiban thawaf wada’ adalah:\n
+               a) Wanita yang sedang haidh,\n
+                b) Wanita yang nifas,\n
+                 c) Orang yang beser,\n
+                  d) Anak kecil,\n
+                   e) Orang yang lemah,\n
+                    f) Orang yang terkena luka sehingga darah terus keluar,\n
+                     g) Orang yang takut dari perbuatan orang dzalim,\n
+                      h) Orang yang takut tertinggal rombongan.
+                      """
+            ]
+        },
+        {
+            "tag": "definisi-munajat",
+            "patterns": [
+                "Apa yang dimaksud dengan munajat?",
+                "Jelaskan apa itu munajat?",
+                "Mengapa orang melakukan munajat?"
+            ],
+            "responses": [
+                "Munajat adalah mencurahkan isi hati, berserah diri untuk mendekatkan diri kepada Allah. Ini merupakan bentuk doa yang intim di mana seseorang berkomunikasi secara mendalam dengan Tuhan."
+            ]
+        },
+        {
+            "tag": "lokasi-multazam",
+            "patterns": [
+                "Di manakah letak Multazam?",
+                "Apa itu Multazam dan di mana lokasinya?",
+                "Dimana seseorang dapat menemukan Multazam di Masjidil Haram?"
+            ],
+            "responses": [
+                "Multazam adalah tempat yang terletak antara Hajar Aswad dan Pintu Ka’bah. Ini adalah area yang sangat dihormati di Masjidil Haram."
+            ]
+        },
+        {
+            "tag": "hukum-munajat-multazam",
+            "patterns": [
+                "Apa hukumnya munajat di Multazam?",
+                "Bolehkah berdoa atau munajat di Multazam?",
+                "Apakah sunnah untuk munajat di Multazam?"
+            ],
+            "responses": [
+                "Hukumnya adalah sunat apabila keadaan memungkinkan untuk berdoa atau munajat di Multazam. Ini merupakan kesempatan bagi jemaah untuk merasakan kedekatan spiritual yang lebih besar dengan Allah."
+            ]
+        },
+        {
+            "tag": "cara-munajat-multazam",
+            "patterns": [
+                "Bagaimana cara munajat di Multazam?",
+                "Apa yang harus dilakukan saat munajat di Multazam?",
+                "Bagaimana cara berdoa di Multazam jika ramai?"
+            ],
+            "responses": [
+                "Munajat di Multazam dapat dilaksanakan dengan merapatkan badan di Multazam apabila memungkinkan. Jika tidak memungkinkan, dapat dilaksanakan dengan cara mengambil tempat persis di depan Multazam atau tempat yang searah dengan Multazam."
+            ]
+        },
+        {
+            "tag": "waktu-munajat-multazam",
+            "patterns": [
+                "Kapan munajat di Multazam dilaksanakan?",
+                "Kapan waktu yang tepat untuk munajat di Multazam?",
+                "Bolehkah munajat di Multazam kapan saja?"
+            ],
+            "responses": [
+                "Munajat di Multazam disunatkan setelah thawaf serta dapat dilakukan kapan saja. Ini memberikan fleksibilitas bagi jemaah untuk berdoa dan mencurahkan isi hati mereka kapan pun mereka merasa terpanggil."
+            ]
+        },
+        {
+            "tag": "definisi-maqam-ibrahim",
+            "patterns": [
+                "Apa dan di mana letak Maqam Ibrahim?",
+                "Apa itu Maqam Ibrahim dan di mana bisa ditemukan?",
+                "Jelaskan lokasi dan pentingnya Maqam Ibrahim."
+            ],
+            "responses": [
+                "Maqam Ibrahim adalah batu tempat berpijak Nabi Ibrahim AS. pada saat membangun Ka'bah dan terletak antara Rukun Hajar Aswad dan Rukun Syami. Maqam ini berbentuk sangkar burung dan di atas batu tersebut ada bekas telapak kedua kaki Nabi Ibrahim AS."
+            ]
+        },
+        {
+            "tag": "ibadah-maqam-ibrahim",
+            "patterns": [
+                "Apa saja ibadah yang dapat dilaksanakan di Maqam Ibrahim?",
+                "Apa yang bisa dilakukan di belakang Maqam Ibrahim?",
+                "Jenis ibadah apa yang dianjurkan di Maqam Ibrahim?"
+            ],
+            "responses": [
+                "Di belakang Maqam Ibrahim, jemaah dapat melakukan shalat sunat thawaf dan berdoa. Ini adalah tempat yang sangat dianjurkan untuk beribadah karena kaitannya yang kuat dengan Nabi Ibrahim AS."
+            ]
+        },
+        {
+            "tag": "waktu-shalat-sunat-maqam-ibrahim",
+            "patterns": [
+                "Kapan waktunya shalat sunat di belakang Maqam Ibrahim dilakukan?",
+                "Kapan sebaiknya shalat sunat di Maqam Ibrahim?",
+                "Apa waktu terbaik untuk melakukan shalat sunat di Maqam Ibrahim?"
+            ],
+            "responses": [
+                "Shalat sunat di belakang Maqam Ibrahim dapat dilakukan setelah selesai thawaf, kecuali pada waktu datang shalat fardu. Hal ini memastikan bahwa shalat sunat tidak bertentangan dengan shalat wajib yang harus didahulukan."
+            ]
+        },
+        {
+            "tag": "definisi-hijir-ismail",
+            "patterns": [
+                "Apa dan dimana letak Hijir Ismail itu?",
+                "Apa itu Hijir Ismail dan di mana bisa ditemukan?",
+                "Jelaskan lokasi dan sejarah Hijir Ismail."
+            ],
+            "responses": [
+                "Hijir Ismail adalah bagian bangunan dari Ka'bah yang terletak antara Rukun Syami dan Rukun Iraqi yang ditandai dengan tembok berbentuk setengah lingkaran. Tempat ini dianggap sangat suci dan memiliki signifikansi sejarah yang besar dalam Islam."
+            ]
+        },
+        {
+            "tag": "ibadah-hijir-ismail",
+            "patterns": [
+                "Apa saja ibadah yang dapat dilaksanakan di dalam Hijir Ismail?",
+                "Aktivitas ibadah apa yang bisa dilakukan di Hijir Ismail?",
+                "Bolehkah melakukan shalat sunat di Hijir Ismail?"
+            ],
+            "responses": [
+                "Di dalam Hijir Ismail, yang merupakan tempat mustajab, dapat dilakukan shalat sunat, berdzikir, dan berdoa. Shalat sunat di sini tidak terkait langsung dengan thawaf dan dapat dilakukan kapan saja."
+            ]
+        },
+        {
+            "tag": "keutamaan-shalat-hijir-ismail",
+            "patterns": [
+                "Apa keutamaan shalat di Hijir Ismail?",
+                "Mengapa shalat di Hijir Ismail dianggap istimewa?",
+                "Apa manfaat shalat di Hijir Ismail?"
+            ],
+            "responses": [
+                "Keutamaan shalat di Hijir Ismail adalah sama dengan shalat di dalam Ka’bah, memberikan nilai spiritual yang sangat tinggi dan berkat yang besar."
+            ]
+        },
+        {
+            "tag": "waktu-shalat-hijir-ismail",
+            "patterns": [
+                "Kapan shalat sunat di dalam Hijir Ismail dilakukan?",
+                "Kapan boleh melakukan shalat sunat di Hijir Ismail?",
+                "Apakah ada waktu khusus untuk shalat sunat di Hijir Ismail?"
+            ],
+            "responses": [
+                "Shalat sunat di dalam Hijir Ismail dapat dilakukan kapan saja, kecuali pada waktu datang shalat fardu, untuk memastikan tidak bertabrakan dengan waktu-waktu wajib."
+            ]
+        },
+        {
+            "tag": "definisi-sai",
+            "patterns": [
+                "Apa yang dimaksud sa’i?",
+                "Jelaskan apa itu sa’i dalam konteks haji atau umrah?",
+                "Apa tujuan dan proses sa’i?"
+            ],
+            "responses": [
+                "Sa’i adalah berjalan yang dimulai dari bukit Safa ke bukit Marwah dan sebaliknya, sebanyak tujuh kali perjalanan, yang berakhir di bukit Marwah. Setiap perjalanan dari bukit Safa ke bukit Marwah atau sebaliknya dihitung satu kali. Bagi yang uzur, boleh menggunakan kursi roda atau skuter matik yang disediakan di tempat khusus, yang sa’inya dapat dilakukan di lantai 2, lantai 3, dan lantai 4."
+            ]
+        },
+        {
+            "tag": "kebersihan-saat-sai",
+            "patterns": [
+                "Apakah jemaah haji yang melakukan sa’i wajib suci dari hadas besar atau kecil?",
+                "Haruskah seseorang suci dari hadas ketika melakukan sa’i?",
+                "Apa syarat kebersihan saat melakukan sa’i?"
+            ],
+            "responses": [
+                "Jemaah haji yang melakukan sa’i tidak wajib suci dari hadas besar atau kecil, tetapi disunatkan suci dari hadas besar atau kecil. Ini berarti lebih baik melakukan sa’i dalam keadaan suci, meskipun tidak diwajibkan."
+            ]
+        },
+        {
+            "tag": "menaiki-safa-marwah-sai",
+            "patterns": [
+                "Apakah disyaratkan naik ke atas bukit Safa/Marwah waktu sa’i?",
+                "Haruskah naik ke puncak Safa atau Marwah saat sa’i?",
+                "Apa yang dilakukan jika sulit naik Safa atau Marwah saat sa’i?"
+            ],
+            "responses": [
+                "Tidak disyaratkan naik ke atas bukit Safa atau Marwah saat melakukan sa’i. Jika keadaan memungkinkan, naik ke atas bukit, tetapi jika sulit, maka cukup sampai di kaki bukit saja."
+            ]
+        },
+        {
+            "tag": "lari-antara-pilar-sai",
+            "patterns": [
+                "Apa hukum lari-lari kecil antara dua pilar/lampu hijau saat sa’i?",
+                "Haruskah lari di antara dua pilar saat sa’i?",
+                "Apakah perempuan juga disunatkan lari-lari kecil saat sa’i?"
+            ],
+            "responses": [
+                "Bagi laki-laki disunatkan lari-lari kecil antara dua pilar/lampu hijau saat sa’i. Sedangkan bagi perempuan tidak disunatkan lari-lari kecil, cukup mempercepat langkahnya."
+            ]
+        },
+        {
+            "tag": "doa-di-safa-marwah",
+            "patterns": [
+                "Apakah dianjurkan mengangkat kedua tangan sambil takbir ketika berada di Safa atau Marwah?",
+                "Haruskah takbir di Safa dan Marwah saat sa’i?",
+                "Apa yang dianjurkan saat berdoa di Safa atau Marwah?"
+            ],
+            "responses": [
+                "Tidak dianjurkan mengangkat kedua tangan sambil takbir menghadap Ka’bah waktu sa’i. Yang dianjurkan adalah mengangkat kedua tangan untuk berdoa sambil menghadap Ka’bah."
+            ]
+        },
+        {
+            "tag": "berhenti-sai-saat-shalat",
+            "patterns": [
+                "Apakah orang yang sedang sa’i harus menghentikan sa’i-nya apabila datang waktu shalat wajib yang dilakukan berjamaah?",
+                "Haruskah berhenti sa’i untuk shalat berjamaah?",
+                "Apa yang dilakukan saat adzan berkumandang selama sa’i?"
+            ],
+            "responses": [
+                "Bagi yang berpendapat shalat wajib berjamaah fardu ‘ain, berhenti dari sa’i dan dilanjutkan kembali setelah selesai shalat berjamaah. Sedangkan bagi yang berpendapat fardu kifayah, sa’i boleh diteruskan apabila kondisi memungkinkan."
+            ]
+        },
+        {
+            "tag": "sai-sunnah",
+            "patterns": [
+                "Apakah ada sa’i sunat?",
+                "Apakah terdapat sa’i yang sifatnya sunnah?",
+                "Bolehkah melakukan sa’i sunat?"
+            ],
+            "responses": [
+                "Tidak ada sa’i sunat."
+            ]
+        },
+        {
+            "tag": "tindakan-setelah-sai-umrah",
+            "patterns": [
+                "Apa yang harus dikerjakan setelah selesai melakukan sa’i dalam rangkaian umrah?",
+                "Apa langkah selanjutnya setelah sa’i dalam umrah?",
+                "Setelah sa’i umrah, apa yang dilakukan?"
+            ],
+            "responses": [
+                "Hal yang harus dikerjakan setelah selesai melakukan sa’i dalam rangkaian umrah adalah mencukur atau memotong rambut, yang dikenal sebagai tahallul."
+            ]
+        },
+        {
+            "tag": "akhir-sai-cukur-rambut",
+            "patterns": [
+                "Apa setiap sa’i diakhiri dengan mencukur atau memotong rambut?",
+                "Apakah sa’i selalu diakhiri dengan tahallul?",
+                "Kapan sa’i tidak diakhiri dengan mencukur rambut?"
+            ],
+            "responses": [
+                "Iya, semua sa’i biasanya diakhiri dengan cukur, kecuali: a. Jemaah haji ifrad atau qiran yang melakukan sa’i setelah tawaf qudum, karena masih dalam keadaan ihram. b. Jemaah haji yang melakukan sa’i setelah tawaf ifadhah, jika sudah bercukur saat di Mina (sudah tahallul awwal)."
+            ]
+        },
+        {
+            "tag": "keraguan-dalam-sai",
+            "patterns": [
+                "Bagaimana jika jemaah haji ragu-ragu dalam hitungan thawaf atau sa’i?",
+                "Apa yang dilakukan jika ada keraguan dalam menghitung putaran sa’i atau thawaf?",
+                "Bagaimana mengatasi ketidakpastian jumlah thawaf atau sa’i?"
+            ],
+            "responses": [
+                "Jika terjadi keraguan dalam hitungan thawaf atau sa’i, jemaah harus berpegang pada hitungan yang lebih kecil."
+            ]
+        },
+        {
+            "tag": "mulai-sai-dari-marwah",
+            "patterns": [
+                "Bagaimana jika jemaah haji memulai sa’i-nya dari Marwah?",
+                "Apakah sa’i yang dimulai dari Marwah sah?",
+                "Jika dimulai sa’i dari Marwah, apa yang harus dilakukan?"
+            ],
+            "responses": [
+                "Sah sa’inya jika dimulai dari Marwah, tetapi harus menambah satu perjalanan lagi, sehingga berakhir di Marwah."
+            ]
+        },
+        {
+            "tag": "waktu-dan-durasi-wukuf",
+            "patterns": [
+                "Kapan waktu wukuf dan berapa lama melakukannya?",
+                "Kapan jemaah haji melakukan wukuf?",
+                "Berapa lama harus melakukan wukuf di Arafah?"
+            ],
+            "responses": [
+                "Waktu wukuf pada hari Arafah mulai dari setelah tergelincir matahari (ba'da zawal) 9 Dzulhijjah sampai dengan terbit fajar 10 Dzulhijjah. Wukuf dinilai sah, walaupun dilaksanakan hanya sesaat selama dalam rentang waktu tersebut, akan tetapi diutamakan mendapatkan sebagian waktu siang dan waktu malam."
+            ]
+        },
+        {
+            "tag": "aktivitas-8-9-dzulhijjah",
+            "patterns": [
+                "Apa yang dilakukan jemaah haji pada masa persiapan wukuf 8 s.d. 9 Dzulhijjah?",
+                "Kegiatan apa yang dilakukan jemaah haji sebelum wukuf?",
+                "Bagaimana persiapan jemaah haji sebelum hari Arafah?"
+            ],
+            "responses": [
+                "Pada 8 Dzulhijjah, jemaah haji berpakaian ihram dan niat haji bagi yang berhaji tamattu' di hotel masing-masing. Jemaah haji ifrad dan qiran tidak niat haji lagi karena masih dalam keadaan ihram sejak dari miqat saat tiba. Selanjutnya semua jemaah berangkat ke Arafah. Pada 9 Dzulhijjah, bagi jemaah haji yang telah berada dalam kemah masing-masing menanti saat wukuf yaitu setelah tergelincir matahari (ba'da zawal) sambil berzikir dan berdoa."
+            ]
+        },
+        {
+            "tag": "aktivitas-8-9-dzulhijjah",
+            "patterns": [
+                "Apa yang dilakukan jemaah haji pada masa persiapan wukuf 8 s.d. 9 Dzulhijjah?",
+                "Kegiatan apa yang dilakukan jemaah haji sebelum wukuf?",
+                "Bagaimana persiapan jemaah haji sebelum hari Arafah?"
+            ],
+            "responses": [
+                "Pada 8 Dzulhijjah, jemaah haji berpakaian ihram dan niat haji bagi yang berhaji tamattu' di hotel masing-masing. Jemaah haji ifrad dan qiran tidak niat haji lagi karena masih dalam keadaan ihram sejak dari miqat saat tiba. Selanjutnya semua jemaah berangkat ke Arafah. Pada 9 Dzulhijjah, bagi jemaah haji yang telah berada dalam kemah masing-masing menanti saat wukuf yaitu setelah tergelincir matahari (ba'da zawal) sambil berzikir dan berdoa."
+            ]
+        },
+        {
+            "tag": "doa-saat-wukuf",
+            "patterns": [
+                "Apakah membaca doa tersebut dilakukan sendiri-sendiri?",
+                "Bolehkah membaca doa secara individu atau berjamaah saat wukuf?",
+                "Apakah doa saat wukuf harus dibaca bersama-sama?"
+            ],
+            "responses": [
+                "Boleh membaca doa sendiri-sendiri atau bersama-sama (berjamaah) saat wukuf. Ini memberikan fleksibilitas bagi jemaah untuk berdoa sesuai dengan kenyamanan masing-masing."
+            ]
+        },
+        {
+            "tag": "kebersihan-saat-wukuf",
+            "patterns": [
+                "Apakah jemaah haji yang melakukan wukuf disyaratkan suci dari hadas besar atau kecil?",
+                "Haruskah bersuci dari hadas saat melakukan wukuf?",
+                "Apakah wukuf sah jika dalam keadaan junub atau haid?"
+            ],
+            "responses": [
+                "Jemaah haji yang melakukan wukuf tidak disyaratkan suci dari hadas besar atau kecil. Dengan demikian, wukuf bagi jemaah haji yang sedang haidl, nifas, junub, dan hadas kecil adalah sah."
+            ]
+        },
+        {
+            "tag": "lokasi-wukuf",
+            "patterns": [
+                "Apakah wukuf itu harus di luar tenda?",
+                "Bolehkah melakukan wukuf di dalam tenda?",
+                "Dimana boleh melakukan wukuf di Arafah?"
+            ],
+            "responses": [
+                "Wukuf boleh di mana saja di luar atau di dalam tenda, selama berada di dalam area tanah Arafah."
+            ]
+        },
+        {
+            "tag": "wukuf-pingsan",
+            "patterns": [
+                "Apakah sah hukumnya wukuf orang yang tidak sadarkan diri (pingsan)?",
+                "Apakah wukuf sah jika seseorang pingsan?",
+                "Bagaimana hukum wukuf bagi orang yang tidak sadar?"
+            ],
+            "responses": [
+                "Menurut Imam Malik, sah wukufnya orang yang tidak sadarkan diri selama orang tersebut dalam keadaan ihram. Sedangkan menurut Imam Hanafi, Imam Syafi'i, dan Imam Hambali tidak sah."
+            ]
+        },
+        {
+            "tag": "shalat-qasar-arafah",
+            "patterns": [
+                "Apa tata cara melaksanakan shalat jama’ qasar Żuhur dan Asar di Arafah sama halnya dengan di tempat lain?",
+                "Bagaimana pelaksanaan shalat jama' dan qasar di Arafah?",
+                "Apakah ada perbedaan dalam shalat jama' qasar di Arafah?"
+            ],
+            "responses": [
+                "Sama saja, tidak ada perbedaan dalam pelaksanaan shalat jama’ qasar Żuhur dan Asar di Arafah dibandingkan dengan di tempat lain."
+            ]
+        },
+        {
+            "tag": "mabit-di-muzdalifah",
+            "patterns": [
+                "Kapan dan berapa lama jemaah haji mabit di Muzdalifah?",
+                "Berapa lama harus mabit di Muzdalifah?",
+                "Kapan jemaah haji harus berada di Muzdalifah?"
+            ],
+            "responses": [
+                "Mabit di Muzdalifah waktunya mulai setelah Maghrib sampai terbit fajar 10 Dzulhijjah dan boleh sesaat asal sudah lewat tengah malam."
+            ]
+        },
+        {
+            "tag": "izin-tidak-mabit-muzdalifah",
+            "patterns": [
+                "Apakah jemaah haji boleh tidak mabit di Muzdalifah?",
+                "Bolehkah jemaah haji yang sakit tidak mabit di Muzdalifah?",
+                "Siapa yang boleh tidak mabit di Muzdalifah?"
+            ],
+            "responses": [
+                "Bagi Jemaah yang sehat wajib Mabit di Muzdalifah, tetapi bagi yang sakit dan yang mengurus orang sakit atau pun yang mengalami kesulitan (masyaqqah) boleh tidak Mabit di Muzdalifah dan tidak dikenakan dam."
+            ]
+        },
+        {
+            "tag": "ukuran-batu-untuk-jamrah",
+            "patterns": [
+                "Seberapa besar batu kerikil yang dipergunakan untuk melontar jamrah?",
+                "Apa ukuran ideal kerikil untuk melontar jamrah?",
+                "Berapa besar batu kerikil yang digunakan di jamrah?"
+            ],
+            "responses": [
+                "Batu kerikil yang dipergunakan untuk melontar jamrah kira-kira sebesar kelereng (gundu)."
+            ]
+        },
+        {
+            "tag": "kantong-kerikil-muzdalifah",
+            "patterns": [
+                "Apakah di Muzdalifah sudah disiapkan kantong kerikil oleh maktab?",
+                "Disediakankah kerikil untuk jemaah di Muzdalifah?",
+                "Bagaimana jemaah mendapatkan kerikil di Muzdalifah?"
+            ],
+            "responses": [
+                "Ya, maktab menyiapkan kantong kerikil dengan jumlah yang cukup untuk melontar seluruh jamrah dan dibagikan di tempat mabit. Namun, jika jemaah tidak mendapat jatah pembagian atau tetap ingin mengambil kerikil sendiri, jemaah dapat mencari kerikil di tempat mabit."
+            ]
+        },
+        {
+            "tag": "jumlah-kerikil-muzdalifah",
+            "patterns": [
+                "Berapa butir kerikil yang diambil di Muzdalifah?",
+                "Berapa banyak batu yang harus diambil untuk melontar jamrah?",
+                "Apa jumlah kerikil yang diperbolehkan untuk diambil di Muzdalifah?"
+            ],
+            "responses": [
+                """
+              a. Jemaah bisa mengambil 7 (tujuh) butir batu kerikil untuk melontar Jamrah Aqabah.\n
+              b. Sedangkan untuk melontar jamrah pada hari-hari Tasyriq boleh diambil di Mina.
+              c. Boleh mengambil yaitu 49 (empat puluh sembilan) butir bagi yang nafar awwal
+              d. Boleh mengambil 70 (tujuh puluh) butir bagi yang akan nafar tsani.
+              """
+            ]
+        },
+        {
+            "tag": "mencuci-batu-jamrah",
+            "patterns": [
+                "Apakah batu kerikil yang akan digunakan untuk melontar jamrah harus dicuci lebih dahulu?",
+                "Haruskah batu kerikil untuk melontar jamrah dicuci?",
+                "Perlukah membersihkan kerikil sebelum digunakan untuk melontar?"
+            ],
+            "responses": [
+                "Tidak harus dicuci lebih dahulu."
+            ]
+        },
+        {
+            "tag": "waktu-tinggalkan-muzdalifah",
+            "patterns": [
+                "Kapan jemaah haji boleh meninggalkan tapal batas Muzdalifah?",
+                "Bolehkah meninggalkan Muzdalifah sebelum tengah malam?",
+                "Kapan waktu yang diperbolehkan untuk meninggalkan Muzdalifah?"
+            ],
+            "responses": [
+                "Jemaah haji baru boleh meninggalkan tapal batas akhir Muzdalifah apabila telah lewat tengah malam."
+            ]
+        },
+        {
+            "tag": "menghitung-tengah-malam-saudi",
+            "patterns": [
+                "Bagaimana cara menghitung waktu tengah malam di Arab Saudi?",
+                "Kapan waktu tengah malam di Arab Saudi?",
+                "Cara menentukan tengah malam di Saudi untuk haji bagaimana?"
+            ],
+            "responses": [
+                "Pertengahan malam di Arab Saudi bukan pukul 00.00 WAS tetapi waktu pertengahan antara waktu magrib dan waktu fajar (subuh). Misalnya, jika waktu Maghrib jatuh pukul 18.55 dan waktu Subuh 04.35, maka lama malam adalah 9.5 jam. Separuh malam adalah 4 jam 45 menit. Dengan demikian, pertengahan malamnya adalah pukul 18.55 + 4 jam 45 menit = pukul 23.40. Jadi lewat tengah malam adalah pukul 23.40 lebih 1 detik."
+            ]
+        },
+        {
+            "tag": "definisi-melontar-jamrah",
+            "patterns": [
+                "Apa yang dimaksud melontar jamrah?",
+                "Jelaskan proses melontar jamrah dalam haji",
+                "Apa itu melontar jamrah dan kapan dilakukan?"
+            ],
+            "responses": [
+                "Melontar jamrah adalah melontar marma (tempat melontar) dengan batu kerikil pada hari Nahar dan hari Tasyriq."
+            ]
+        },
+        {
+            "tag": "lokasi-jamrah",
+            "patterns": [
+                "Di mana letak Jamrah Ula, Wusta dan Aqabah?",
+                "Apa lokasi dari ketiga jamrah di Mina?",
+                "Dimana letak Jamrah Ula, Wusta, dan Aqabah?"
+            ],
+            "responses": [
+                """
+              a. Jamrah Ula (pertama) adalah jamrah yang terletak dekat dari arah Haratullisan.
+              b. Jamrah Wusta adalah jamrah yang kedua (yang terletak di tengah-tengah antara Jamrah Ula dan Jamrah Aqabah).
+              c. Jamrah Aqabah adalah jamrah yang terletak di perbatasan antara Mina dan Makkah.
+              """
+            ]
+        },
+        {
+            "tag": "waktu-melontar-jamrah",
+            "patterns": [
+                "Kapan waktu melontar jamrah?",
+                "Apa waktu yang diperbolehkan untuk melontar jamrah?",
+                "Kapan jemaah haji melontar jamrah?"
+            ],
+            "responses": [
+                """
+              Waktu melontar jamrah sebagai berikut:
+              a. Melontar Jamrah Aqabah pada hari nahar 10 Dzulhijjah:
+                1. Waktu afdal (utama) setelah terbit matahari hari nahar. Untuk menjaga keselamatan bagi jemaah agar menghindari waktu asdaliyah, karena waktu tersebut sangat beresiko/berbahaya.
+                2. Waktu ikhtiar, siang hari sampai terbenam matahari (ghurub).
+                3. Waktu jawaz, setelah lewat tengah malam 10 Dzulhijjah hingga terbit fajar 14 Dzulhijjah.
+                4. Melontar Jamrah Aqabah 10 Dzulhijjah, sebaiknya dilakukan lewat tengah malam sampai dengan pukul 05.00 pagi, atau pukul 14.00 sampai dengan pukul 18.00 atau memilih waktu malam dari pukul 18.00 sampai dengan pukul 24.00. Hindari memilih waktu melontar antara pukul 05.00 pagi sampai dengan 12.00 siang, karena sangat padat dan berisiko tinggi.
+              b. Melontar jamrah pada hari-hari Tasyriq (11,
+                12, dan 13 Dzulhijjah) waktunya adalah:
+                a. Waktu afdal: ba'da zawal, (setelah tergelincirnya matahari).
+                b. Waktu ikhtiar: sore hari sampai malam.
+                c. Waktu jawaz (diperbolehkan): yaitu selain waktu afdal dan ikhtiar dimulai dari terbit fajar hari bersangkutan.
+              """
+            ]
+        },
+        {
+            "tag": "waktu-larangan-melontar-jamrah",
+            "patterns": [
+                "Kapan waktu yang dilarang untuk melontar jamrah oleh pemerintah Arab Saudi?",
+                "Apakah ada waktu larangan untuk melontar jamrah?",
+                "Kapan jemaah haji tidak boleh melontar jamrah?"
+            ],
+            "responses": [
+                "Ketentuan waktu larangan lontar jamrah ditetapkan oleh Pemerintah Kerajaan Arab Saudi dan akan diinformasikan kepada jemaah haji sebelum pelaksanaan wukuf melalui ketua kloter."
+            ]
+        },
+        {
+            "tag": "cara-melontar-jamrah",
+            "patterns": [
+                "Apakah 7 (tujuh) batu kerikil boleh sekaligus dilontarkan untuk satu jamrah?",
+                "Bolehkah melontar semua kerikil sekaligus pada satu jamrah?",
+                "Bagaimana cara yang benar untuk melontar jamrah dengan tujuh batu?"
+            ],
+            "responses": [
+                "Tidak boleh melontarkan 7 (tujuh) batu kerikil sekaligus untuk satu jamrah, jika melontar 7 (tujuh) batu kerikil sekaligus untuk satu jamrah, maka dihitung hanya satu lontaran."
+            ]
+        },
+        {
+            "tag": "urutan-melontar-jamrah",
+            "patterns": [
+                "Apakah melontar ketiga jamrah itu harus tertib dari Ula, Wusta, dan Aqabah?",
+                "Haruskah melontar jamrah dalam urutan tertentu?",
+                "Apa urutan yang benar untuk melontar jamrah?"
+            ],
+            "responses": [
+                "Harus tertib dari Ula, Wusta, dan Aqabah. Apabila tidak tertib, maka harus diulang dari awal."
+            ]
+        },
+        {
+            "tag": "wakil-melontar-jamrah",
+            "patterns": [
+                "Apakah melontar jamrah boleh diwakilkan kepada orang lain?",
+                "Dalam kondisi apa seseorang boleh mewakilkan melontar jamrah?",
+                "Siapa yang bisa mewakilkan tugas melontar jamrah?"
+            ],
+            "responses": [
+                "Melontar jamrah tidak boleh diwakilkan, kecuali karena uzur, baik karena sakit atau karena masyaqqah (kesulitan yang berat)."
+            ]
+        },
+        {
+            "tag": "cara-mewakili-melontar-jamrah",
+            "patterns": [
+                "Bagaimana cara mewakili melontar jamrah?",
+                "Apa prosedur untuk mewakilkan melontar jamrah?",
+                "Bagaimana seseorang mewakilkan tugas melontar jamrah?"
+            ],
+            "responses": [
+                "Cara mewakili melontar jamrah dilakukan dengan melontar setiap jamrah untuk diri sendiri, kemudian untuk yang diwakili pada tempat yang sama. Tidak diharuskan bagi yang mewakili menyelesaikan lontaran 3 (tiga) jamrah untuk dirinya, karena tidak ada dalil yang mewajibkannya."
+            ]
+        },
+        {
+            "tag": "menunda-melontar-jamrah",
+            "patterns": [
+                "Apakah melontar jamrah boleh diakhirkan (ditunda) lontarannya pada hari berikut?",
+                "Bolehkah menunda melontar jamrah?",
+                "Dalam kondisi apa pelontaran jamrah boleh ditunda?"
+            ],
+            "responses": [
+                "Boleh, apabila ada alasan-alasan darurat syar’iy, seperti sakit, petugas yang mengurus orang sakit, dan lain-lain."
+            ]
+        },
+        {
+            "tag": "cara-melontar-jamrah-tertunda",
+            "patterns": [
+                "Bagaimana cara melontar jamrah sebagai pengganti pelontaran yang tertunda?",
+                "Apa prosedur melontar jamrah untuk lontaran yang ditunda?",
+                "Bagaimana melontar jamrah untuk hari yang tertunda?"
+            ],
+            "responses": [
+                "Caranya adalah dimulai dari Jamrah Ula, Wusta, dan Aqabah secara sempurna sebagai lontaran untuk hari pertama. Kemudian mulai lagi dari Jamrah Ula, Wusta, dan Aqabah untuk hari kedua. Selanjutnya, mulai lagi dari Jamrah Ula, Wusta dan Aqabah untuk hari ketiga."
+            ]
+        },
+        {
+            "tag": "denda-tidak-melontar-jamrah",
+            "patterns": [
+                "Apa hukumnya bagi orang yang meninggalkan lontaran Jamrah Aqabah pada 10 Dzulhijjah dan hari-hari Tasyriq?",
+                "Apa konsekuensi jika tidak melontar Jamrah Aqabah pada waktu yang ditentukan?",
+                "Apa denda bagi yang tidak melontar Jamrah Aqabah?"
+            ],
+            "responses": [
+                """
+              Hukumnya adalah:
+              a. Bagi yang tidak mengerjakan Jamrah Aqabah pada tanggal 10 Dzulhijjah, maka dikenakan dam seekor kambing.
+              b. Bagi orang yang meninggalkan 1 (satu) kali lontaran (1 hari/1 jamrah/1 batu) dikenakan denda dengan memberikan makanan pokok sebanyak satu mud (sekitar ¾ kg) dan bagi yang meninggalkan 2 (dua) kali lontaran dikenakan dua mud (sekitar 1 ½ kg) kepada fakir miskin.
+              c. Bagi yang meninggalkan 3 (tiga) kali lontaran atau lebih, dikenakan dam seekor kambing.
+              d. Bagi orang yang meninggalkan semua lontaran hari-hari Tasyriq dikenakan dam seekor kambing.
+              """
+            ]
+        },
+        {
+            "tag": "waktu-melontar-jamrah-terlambat",
+            "patterns": [
+                "Kapankah waktu yang dibolehkan melontar Jamrah Aqabah, apabila terlambat tiba di Mina dari Arafah?",
+                "Apa yang harus dilakukan jika terlambat tiba di Mina untuk melontar Jamrah Aqabah?",
+                "Kapan melontar Jamrah Aqabah jika tiba terlambat di Mina?"
+            ],
+            "responses": [
+                "Setiba di Mina langsung melontar Jamrah Aqabah."
+            ]
+        },
+        {
+            "tag": "mabit-di-mina",
+            "patterns": [
+                "Apa yang dimaksud mabit di Mina?",
+                "Apa itu bermalam di Mina selama hari-hari Tasyriq?",
+                "Jelaskan pengertian mabit di Mina."
+            ],
+            "responses": [
+                "Mabit di Mina adalah bermalam di Mina pada hari-hari Tasyriq (malam tanggal 11, 12, dan 13 Dzulhijjah)."
+            ]
+        },
+        {
+            "tag": "hukum-mabit-di-mina",
+            "patterns": [
+                "Apa hukum Mabit di Mina?",
+                "Apakah wajib bermalam di Mina selama hari-hari Tasyriq?",
+                "Menurut mazhab Hanafi, apakah mabit di Mina itu wajib atau sunnah?",
+                "hukum Mabit di Mina?"
+            ],
+            "responses": [
+                "Menurut jumhur ulama, hukumnya wajib. Sedangkan menurut mazhab Hanafi, hukumnya sunnah."
+            ]
+        },
+        {
+            "tag": "durasi-dan-timing-mabit-di-mina",
+            "patterns": [
+                "Kapan dan berapa lama Mabit di Mina?",
+                "Berapa lama dan kapan harus bermalam di Mina selama Hari Tasyriq?",
+                "Jelaskan waktu dan durasi mabit di Mina?"
+            ],
+            "responses": [
+                "Mabit di Mina dilaksanakan pada hari-hari Tasyriq, yaitu malam 11, 12, dan malam 13 Dzulhijjah. Bagi yang mengambil nafar awwal, mabit di Mina pada malam 11 dan 12 Dzulhijjah, dan yang mengambil nafar tsani, mabit di Mina pada malam 11, 12, dan 13 Dzulhijjah."
+            ]
+        },
+        {
+            "tag": "waktu-mulai-mabit-di-mina",
+            "patterns": [
+                "Apakah Mabit di Mina harus dimulai sejak waktu Maghrib?",
+                "Kapan harus mulai mabit di Mina?",
+                "Haruskah mabit di Mina dimulai tepat setelah maghrib?"
+            ],
+            "responses": [
+                "Tidak harus dimulai dari waktu Maghrib asal bisa berada di Mina melebihi separuh malam (mu’żamul lail) dengan hitungan malam dimulai dari maghrib hingga subuh."
+            ]
+        },
+        {
+            "tag": "denda-tidak-mabit-di-mina",
+            "patterns": [
+                "Apa yang harus dilakukan apabila tidak mabit di Mina pada seluruh hari Tasyriq?",
+                "Apa denda jika tidak menginap di Mina selama hari-hari Tasyriq?",
+                "Bagaimana penalti jika tidak bermalam di Mina?"
+            ],
+            "responses": [
+                """
+              Apabila tidak mabit di Mina pada seluruh hari Tasyriq, maka wajib membayar dam (satu ekor kambing). Tetapi apabila tidak mabit di Mina hanya satu malam atau dua malam, maka harus diganti dengan denda, yaitu satu malam satu mud (¾ kg beras/makanan pokok), dua malam dua mud (1 ½ kg beras/makanan pokok), tiga malam, membayar dam seekor kambing.
+              """
+            ]
+        },
+        {
+            "tag": "tersesat-ke-makkah",
+            "patterns": [
+                "Apakah yang dilakukan jemaah haji apabila dari Arafah yang seharusnya ke Mina, tersesat ke Makkah?",
+                "Tindakan apa yang harus diambil jika jemaah haji tersesat ke Makkah dari Arafah?",
+                "Langkah apa yang harus diikuti jika salah arah ke Makkah setelah Arafah?"
+            ],
+            "responses": [
+                """
+              Jemaah haji yang tersesat ke Makkah, menunggu sampai lewat tengah malam, kemudian melakukan thawaf ifadah, sa’i, dan bercukur. Dengan begitu, jemaah sudah tahallul awwal. Kemudian menuju ke Mina untuk melontar Jamrah Aqabah. Setelah melontar jumrah aqabah berarti sudah tahallul tsani. Selanjutnya jemaah melaksanakan mabit di Mina.
+              """
+            ]
+        },
+        {
+            "tag": "hukum-mabit-mina-perluasan",
+            "patterns": [
+                "Bagaimana hukumnya Mabit jemaah haji di Mina atau di wilayah perluasan Mina?",
+                "Apa pendapat ulama tentang mabit di Mina selama hari Tasyriq?",
+                "Apakah sah mabit di kawasan perluasan Mina?"
+            ],
+            "responses": [
+                """
+              Hukumnya adalah:
+              a. Hukum Mabit di Mina pada malam hari Tasyriq menurut sebagian besar mazhab Syafi’i, mazhab Maliki, dan sebagian ulama mazhab Hanbali serta fatwa MUI tahun 1981 adalah wajib dan bagi yang tidak mabit dikenakan dam. Namun ada sebagian dari mazhab Hanafi, sebagian Hanbali, sebagian mazhab Syafi’i, dan sebagian mazhab Zahiri berpendapat, bahwa mabit di Mina pada malam hari Tasyriq hukumnya sunat.
+              b. Mabit di perluasan kemah di kawasan perluasan Mina hukumnya sah, seperti di Mina, sebagaimana pendapat para ulama Makkah dan para ulama lainnya, juga menurut ijtihad yang didasarkan pada keadaan darurat karena kondisi di Mina saat ini sudah penuh sesak dan kemah di perluasan Mina masih bersambung dengan perkemahan di Mina, sesuai dengan Keputusan Hasil Muzakarah Ulama Tentang Mabit di Luar Kawasan Mina, tanggal 10 Januari 2001.
+              c. Bagi yang berpendapat, mabit di Mina itu wajib dan perluasan kemah di Mina tidak sah untuk mabit, maka pelaksanaan mabitnya masuk ke wilayah Mina kemudian setelah mabit kembali ke kemahnya di perluasan Mina.
+              """
+            ]
+        },
+        {
+            "tag": "definisi-nafar-awwal",
+            "patterns": [
+                "Apa yang dimaksud nafar awwal?",
+                "Jelaskan nafar awwal dalam konteks haji?",
+                "Apa itu nafar awwal?"
+            ],
+            "responses": [
+                "Nafar awwal adalah keberangkatan jemaah haji meninggalkan Mina pada tanggal 12 Dzulhijjah setelah melontar 3 jamrah (bermalam di Mina 2 malam) paling lambat sebelum matahari terbenam."
+            ]
+        },
+        {
+            "tag": "definisi-nafar-tsani",
+            "patterns": [
+                "Apa yang dimaksud nafar tsani?",
+                "Jelaskan nafar tsani dalam konteks haji?",
+                "Apa itu nafar tsani?"
+            ],
+            "responses": [
+                "Nafar tsani adalah keberangkatan jemaah haji meninggalkan Mina pada tanggal 13 Dzulhijjah setelah melontar 3 jamrah (bermalam di Mina 3 malam)."
+            ]
+        },
+        {
+            "tag": "utama-nafar-awwal-tsani",
+            "patterns": [
+                "Mana yang lebih utama nafar awwal atau nafar tsani?",
+                "Apa perbedaan keutamaan antara nafar awwal dan nafar tsani?",
+                "Apa yang lebih baik, nafar awwal atau nafar tsani?"
+            ],
+            "responses": [
+                "Nafar awwal atau nafar tsani sama nilainya, yang membedakan adalah nilai ketaqwaanya. Rasulullah SAW melaksanakan nafar tsani."
+            ]
+        },
+        {
+            "tag": "definisi-tahallul",
+            "patterns": [
+                "Apa yang dimaksud tahallul?",
+                "Jelaskan apa itu tahallul dalam haji?",
+                "Apa itu tahallul?"
+            ],
+            "responses": [
+                "Tahallul adalah keadaan seseorang yang sudah bebas (halal) dari ihramnya setelah menyelesaikan amalan-amalan manasik hajinya. Tahallul terbagi menjadi 2 (dua) bagian yaitu: tahallul awwal (pertama) dan tahallul tsani (kedua)."
+            ]
+        },
+        {
+            "tag": "definisi-tahallul-awwal",
+            "patterns": [
+                "Apa yang dimaksud tahallul awwal?",
+                "Jelaskan tahallul awwal?",
+                "Apa itu tahallul awwal dalam konteks haji?"
+            ],
+            "responses": [
+                "Tahallul awwal adalah keadaan seseorang yang telah melakukan dua di antara kegiatan berikut: a. Melontar Jamrah Aqabah dan menggunting/mencukur rambut. b. Thawaf ifadah, sa’i, dan menggunting/mencukur rambut. c. Thawaf ifadah, sa’i, dan melontar Jamrah Aqabah."
+            ]
+        },
+        {
+            "tag": "definisi-tahallul-tsani",
+            "patterns": [
+                "Apa yang dimaksud tahallul tsani?",
+                "Jelaskan tahallul tsani?",
+                "Apa itu tahallul tsani dalam konteks haji?"
+            ],
+            "responses": [
+                "Tahallul tsani adalah keadaan seseorang Jemaah yang telah melakukan tiga kegiatan, yaitu melontar jamrah aqabah, memotong atau mencukur rambut, dan tawaf ifadah serta sa’i."
+            ]
+        },
+        {
+            "tag": "larangan-setelah-tahallul-awwal",
+            "patterns": [
+                "Apa larangan yang masih berlaku bagi jemaah haji yang sudah tahallul awwal?",
+                "Apa yang tidak boleh dilakukan setelah tahallul awwal?",
+                "Apa saja yang masih dilarang setelah tahallul awwal?"
+            ],
+            "responses": [
+                "Perbuatan yang dilarang setelah tahallul awwal adalah bersetubuh (jima’)."
+            ]
+        },
+        {
+            "tag": "cara-memotong-rambut",
+            "patterns": [
+                "Bagaimana cara memotong rambut selama haji?",
+                "Apa cara yang afdhal untuk mencukur atau memotong rambut dalam haji?",
+                "Bagaimana perempuan harus memotong rambutnya selama haji?"
+            ],
+            "responses": [
+                """
+    a. Lebih afdhal bagi laki-laki mencukur habis (gundul), namun diperbolehkan memotong/memendekkan rambut kepala atau sekurang-kurangnya memotong sebelah kanan, tengah, dan kiri.
+    b. Lebih afdhal bagi perempuan mengumpulkan rambutnya jadi satu kemudian memotong ujungnya atau sekurang-kurangnya tiga helai rambut sepanjang jari.
+    c. Baik laki-laki maupun perempuan boleh menggunting rambut sendiri atau dengan bantuan orang lain apabila ada hubungan mahram. Bila tidak ada hubungan mahram hukumnya haram.
+    """
+            ]
+        },
+        {
+            "tag": "perbedaan-tahallul-haji-umrah",
+            "patterns": [
+                "Apa perbedaan antara tahallul haji dan tahallul umrah?",
+                "Berapa tahallul dalam haji dan umrah?",
+                "Jelaskan perbedaan tahallul dalam haji dan umrah."
+            ],
+            "responses": [
+                "Tahallul haji terdiri dari tahallul awwal dan tahallul tsani. Sedangkan tahallul umrah hanya satu tahallul saja."
+            ]
+        },
+        {
+            "tag": "pemotongan-rambut-uzur",
+            "patterns": [
+                "Kapan rambut orang sakit (uzur) dipotong (dicukur) bagi yang melontar jamrahnya diwakilkan?",
+                "Apa ketentuan pemotongan rambut bagi jemaah haji yang uzur?",
+                "Bagaimana aturan pemotongan rambut bagi yang sakit dan melontar jamrah diwakilkan?"
+            ],
+            "responses": [
+                """
+    Menggunting rambut orang sakit dapat dilakukan sebelum maupun setelah pelaksanaan lontar jamrah Aqabah oleh orang yang mewakili. Hanya saja penting dicatat bahwa orang yang uzur belum berstatus tahallul awal sebelum memperoleh informasi kepastian pelaksanaan lontar jumrah aqabah dilakukan.
+    """
+            ]
+        },
+        {
+            "tag": "definisi-dam",
+            "patterns": [
+                "Apa yang dimaksud dengan dam?",
+                "Jelaskan arti dam dalam konteks haji?",
+                "Apa itu dam?"
+            ],
+            "responses": [
+                "Dam menurut bahasa artinya darah, sedangkan menurut istilah adalah mengalirkan darah (menyembelih ternak, yaitu: kambing, unta atau sapi) dalam rangka memenuhi ketentuan manasik haji."
+            ]
+        },
+        {
+            "tag": "jenis-dam",
+            "patterns": [
+                "Ada berapa macam dam?",
+                "Berapa jenis dam dalam haji?",
+                "Jelaskan jenis-jenis dam dalam ibadah haji."
+            ],
+            "responses": [
+                """
+    Dam terdiri dari dua macam, yaitu:
+    a. Dam Nusuk (sesuai ketentuan manasik) adalah dam yang dikenakan bagi orang yang mengerjakan haji tamattu’ atau Qiran (bukan karena melakukan kesalahan).
+    b. Dam Isa’ah adalah dam yang dikenakan bagi orang yang melanggar aturan atau melakukan kesalahan, yaitu:
+       1. Melanggar aturan ihram haji atau umrah.
+       2. Meninggalkan salah satu wajib haji atau umrah, yang terdiri dari:
+          a) Tidak berihram/niat dari Mīqāt.
+          b) Tidak mabit di Muzdalifah.
+          c) Tidak mabit di Mina.
+          d) Tidak melontar jamrah.
+          e) Tidak thawaf wada’.
+    """
+            ]
+        },
+        {
+            "tag": "waktu-penyembelihan-dam-tamattu",
+            "patterns": [
+                "Kapan hewan dam tamattu’ boleh disembelih?",
+                "Kapan penyembelihan hewan dam tamattu’ dilakukan?",
+                "Apa waktu yang tepat untuk penyembelihan dam tamattu’?"
+            ],
+            "responses": [
+                """
+    Para ulama berbeda pendapat tentang waktu penyembelihan hewan untuk membayar dam haji tamattu’ sebagai berikut:
+    a. Madzhab Syafi’i membolehkan penyembelihan hewan dam setelah selesai umrah.
+    b. Madzhab Hanafi, Maliki dan Hanbali berpendapat penyembelihan hewan dilaksanakan setelah melontar jumrah aqabah pada 10 dzulhijjah.
+    """
+            ]
+        },
+        {
+            "tag": "kelebihan-membayar-dam-melalui-bank",
+            "patterns": [
+                "Apa kelebihan membayar dam melalui bank?",
+                "Mengapa membayar dam lewat bank menjadi opsi yang lebih baik?",
+                "Keuntungan apa saja yang didapatkan jika membayar dam melalui bank?"
+            ],
+            "responses": [
+                """
+    Membayar dam dengan menyetorkan sejumlah uang ke bank sesuai nilai harga hewan yang hendak dipotong memiliki kelebihan berikut ini:
+    a. Bank penerima setoran dam adalah lembaga resmi yang ditunjuk pemerintah kerajaan Arab Saudi sehingga akuntabilitas kinerjanya bisa dipertanggungjawabkan.
+    b. Memiliki lajnah thibbi, yang bertugas menyeleksi binatang yang memenuhi syarat untuk dijadikan hadyu.
+    c. Memiliki lajnah syar’i/fiqhi, yang bertugas mengawasi dan memastikan keabsahan penyembelihan, distribusi dan lainnya yang berkaitan dengan aspek fiqih.
+    d. Harga standar sehingga mendapat jaminan keamanan dari risiko unsur bisnis tak wajar dan unsur penipuan.
+    e. Mencapai target tepat sasaran dalam distribusi daging.
+    f. Menumbuhkan solidaritas sosial dan menciptakan kemaslahatan yang lebih luas.
+    """
+            ]
+        },
+        {
+            "tag": "perbedaan-qurban-dan-dam",
+            "patterns": [
+                "Apa perbedaan antara qurban dan penyembelihan dam?",
+                "Bagaimana membedakan antara qurban dan dam?",
+                "Jelaskan perbedaan utama antara qurban dan dam dalam konteks haji."
+            ],
+            "responses": [
+                """
+    Qurban adalah sembelihan yang berkaitan dengan hari qurban dan hari Tasyriq, yang disunatkan untuk seluruh umat Islam, baik yang sedang melaksanakan haji maupun tidak dan dapat dilaksanakan di mana saja termasuk di Tanah Air. Sedangkan dam adalah sembelihan yang berkaitan dengan amalan manasik haji, baik karena ketentuan manasik haji, seperti tamattu’ dan qirān maupun karena pelanggaran dan harus dilaksanakan di Tanah Haram.
+    """
+            ]
+        },
+        {
+            "tag": "alternatif-tidak-mampu-bayar-dam",
+            "patterns": [
+                "Apa yang harus dilakukan apabila tidak sanggup membayar dam?",
+                "Alternatif apa yang tersedia jika jemaah haji tidak bisa membayar dam?",
+                "Bagaimana mengganti kewajiban dam jika tidak mampu membayar?"
+            ],
+            "responses": [
+                """
+    a. Apabila jemaah haji melakukan haji tamattu’ atau qirān, tetapi tidak sanggup membayar dam dengan seekor kambing, maka wajib mengganti dengan puasa 10 (sepuluh) hari dengan ketentuan: 3 (tiga) hari dilakukan selama ibadah haji di Makkah dan 7 (tujuh) hari dilakukan sesudah kembali ke Tanah Air. Bila tidak mampu puasa 3 (tiga) hari semasa haji di Tanah Suci, maka harus melaksanakan puasa 10 (sepuluh) hari di Tanah Air, dengan ketentuan: 3 (tiga) hari pertama dilakukan sebagai pengganti kewajiban berpuasa 3 (tiga) hari pada waktu melaksanakan haji di Makkah, kemudian berpuasa 7 (tujuh) hari sebagai kewajiban setelah tiba di Tanah Air dengan memisahkan antara kedua puasa tersebut, minimal 4 (empat) hari.
+    b. Bila sengaja melanggar larangan ihram, seperti mencukur rambut, memotong kuku, memakai wangi-wangian, memakai pakaian biasa bagi laki-laki, menutup muka, memakai sarung tangan bagi perempuan, setiap pelanggaran boleh memilih membayar dam seekor kambing, atau membayar fidyah (bersedekah) kepada 6 (enam) orang miskin masing-masing ½ s'a’ (2 mud =1 ½ kg) berupa makanan pokok, atau berpuasa 3 (tiga) hari.
+    c. Bila melanggar larangan berupa membunuh hewan buruan dan tidak sanggup membayar dam, wajib membayar dengan makanan pokok seharga binatang tersebut. Bila benar-benar tidak mampu, maka harus diganti dengan puasa, dengan perbandingan setiap hari = 1 mud makanan (¾ kg beras).
+    d. Bila melanggar larangan, yaitu bersetubuh dengan istri/suami, baik sebelum tahallul awwal maupun sesudah tahallul awwal, maka harus bayar kifarat seekor unta. Apabila tidak sanggup, maka harus menyembelih seekor sapi, bila tidak mampu harus menyembelih 7 (tujuh) ekor kambing. Apabila tidak mampu, memberi makan seharga unta kepada fakir miskin di tanah haram, kalau juga tidak mampu berpuasa dengan hitungan 1 (satu) hari untuk setiap mud dari harga unta. Pendapat lain mengatakan, bahwa jika pelanggaran dilakukan sesudah tahallul awwal, maka dikenai dam seekor kambing.
+    """
+            ]
+        },
+        {
+            "tag": "akibat-pelanggaran-bercinta-sebelum-sesudah-tahallul-awwal",
+            "patterns": [
+                "Apa perbedaan akibat pelanggaran bersetubuh dengan istri/suami yang dilakukan sebelum tahallul awwal dan sesudah tahallul awwal?",
+                "Apa konsekuensi dari bersetubuh sebelum dan setelah tahallul awwal dalam haji?",
+                "Bagaimana dampak bersetubuh sebelum dan sesudah tahallul awwal pada haji?"
+            ],
+            "responses": [
+                """
+    Jamaah haji yang bersetubuh sebelum tahallul awwal, hajinya tidak sah dan wajib membayar kifarat berupa menyembelih unta serta harus mengulang haji tahun berikutnya secara terpisah dari pasangannya. Sedangkan jamaah haji yang bersetubuh setelah tahallul awwal hajinya tetap sah, namun harus membayar kifarat berupa unta menurut Imam Malik, sebagian madzhab Syafi’i dan sebagian madzhab Hambali. Dapat berupa kambing menurut madzhab Hanafi, mayoritas madzhab Syafi’i dan Hambali.
+    """
+            ]
+        },
+        {
+            "tag": "waktu-puasa-tiga-hari",
+            "patterns": [
+                "Kapan waktu mengerjakan puasa tiga hari?",
+                "Kapan harus dilakukan puasa tiga hari selama haji?",
+                "Kapan jemaah haji bisa berpuasa tiga hari?"
+            ],
+            "responses": [
+                "Waktunya adalah selama berada di Makkah dalam bulan haji. Dalam keadaan benar-benar tidak mampu berpuasa 3 (tiga) hari di Makkah dalam bulan haji, maka dapat di-qada (diganti) setelah kembali ke Tanah Air."
+            ]
+        },
+        {
+            "tag": "waktu-puasa-tujuh-hari",
+            "patterns": [
+                "Kapan waktu mengerjakan puasa 7 (tujuh) hari?",
+                "Kapan harus dilakukan puasa tujuh hari setelah haji?",
+                "Kapan pelaksanaan puasa 7 hari setelah kembali dari haji?"
+            ],
+            "responses": [
+                "Puasa 7 (tujuh) hari dilaksanakan setelah tiba di Tanah Air."
+            ]
+        },
+        {
+            "tag": "qurban-untuk-haji",
+            "patterns": [
+                "Bolehkah menyembelih qurban di Tanah Air atas nama orang yang sedang haji di Makkah?",
+                "Apakah diperbolehkan melakukan qurban di Tanah Air untuk jemaah haji?",
+                "Bisakah qurban dilakukan di Tanah Air untuk seseorang yang berada di Makkah?"
+            ],
+            "responses": [
+                "Boleh."
+            ]
+        },
+        {
+            "tag": "definisi-badal-haji",
+            "patterns": [
+                "Apa yang dimaksud badal haji?",
+                "Jelaskan apa itu badal haji?",
+                "Apa itu badal haji dan kapan dilakukan?"
+            ],
+            "responses": [
+                "Badal haji adalah haji yang dilakukan oleh seseorang, atas nama orang lain yang sudah meninggal atau ma’dhub (dalam kondisi sakit parah dan kondisi masyaqqah)."
+            ]
+        },
+        {
+            "tag": "syarat-badal-haji",
+            "patterns": [
+                "Apa syarat orang yang melakukan badal haji?",
+                "Siapa yang boleh melakukan badal haji?",
+                "Syarat apa yang harus dipenuhi oleh orang yang melakukan badal haji?"
+            ],
+            "responses": [
+                "Syarat orang yang melakukan badal haji adalah dia harus memenuhi syarat wajib haji dan sudah haji untuk dirinya."
+            ]
+        },
+        {
+            "tag": "gender-badal-haji",
+            "patterns": [
+                "Apakah boleh laki-laki membadalkan perempuan atau sebaliknya?",
+                "Bolehkah laki-laki melakukan badal haji untuk perempuan?",
+                "Dapatkah perempuan diwakilkan oleh laki-laki dalam badal haji?"
+            ],
+            "responses": [
+                "Boleh, laki-laki boleh membadalkan perempuan dan sebaliknya."
+            ]
+        },
+        {
+            "tag": "keluarga-wakil-badal-haji",
+            "patterns": [
+                "Apakah yang menjadi wakil dalam badal haji harus keluarga?",
+                "Haruskah wakil badal haji berasal dari keluarga?",
+                "Bolehkah badal haji dilakukan oleh non-keluarga?"
+            ],
+            "responses": [
+                "Orang yang menjadi wakil badal haji diutamakan adalah keluarga yang berangkat dari tempat tinggal orang yang dibadali. Namun juga bisa dilakukan oleh orang lain dengan cara keluarganya melakukan perjanjian sesuai kesepakatan dengan orang tersebut."
+            ]
+        },
+        {
+            "tag": "syarat-haji-perempuan",
+            "patterns": [
+                "Apa syarat-syarat bagi perempuan yang akan berhaji?",
+                "Syarat apa saja yang harus dipenuhi oleh perempuan untuk berhaji?",
+                "Apa saja kondisi yang harus dipenuhi oleh perempuan sebelum berhaji?"
+            ],
+            "responses": [
+                "Bagi perempuan yang akan berhaji, selain harus memenuhi syarat-syarat haji disyaratkan pula harus ada suami atau mahram yang menyertainya."
+            ]
+        },
+        {
+            "tag": "definisi-mahram",
+            "patterns": [
+                "Siapakah yang dimaksud mahram?",
+                "Apa itu mahram bagi perempuan yang berhaji?",
+                "Definisikan mahram dalam konteks haji."
+            ],
+            "responses": [
+                "Mahram adalah laki-laki yang dilarang menikah dengan perempuan yang akan berhaji itu."
+            ]
+        },
+        {
+            "tag": "haji-tanpa-suami-mahram",
+            "patterns": [
+                "Apakah perempuan boleh pergi haji tanpa suami atau mahram?",
+                "Bolehkah perempuan melaksanakan haji tanpa ditemani mahram?",
+                "Aturan pergi haji bagi perempuan tanpa suami atau mahram?"
+            ],
+            "responses": [
+                "Perempuan boleh pergi haji tanpa suami atau mahram, selama diyakini terjaga keamanannya (keputusan mudzakarah perhajian Indonesia, Kemenag RI 2015)."
+            ]
+        },
+        {
+            "tag": "izin-suami-untuk-haji",
+            "patterns": [
+                "Apakah seorang istri boleh pergi haji tanpa izin suami?",
+                "Bolehkah pergi haji tanpa izin dari suami?",
+                "Apakah izin suami diperlukan untuk haji?"
+            ],
+            "responses": [
+                "Dalam hal ini ada 2 (dua) pendapat, bagi Imam Syafi’i harus izin suami, akan tetapi Imam Hambali berpendapat, suami tidak boleh melarang istrinya melaksanakan haji wajibnya kecuali haji sunat."
+            ]
+        },
+        {
+            "tag": "ketentuan-khusus-haji-umrah-perempuan",
+            "patterns": [
+                "Apakah ada ketentuan khusus yang berlaku bagi perempuan yang melaksanakan ibadah haji/umrah?",
+                "Aturan khusus untuk perempuan dalam haji dan umrah?",
+                "Apa saja aturan khusus untuk perempuan selama haji atau umrah?"
+            ],
+            "responses": [
+                """
+    Ada beberapa ketentuan khusus yang berlaku bagi perempuan yang melaksanakan ibadah haji/umrah yakni:
+    a. Perempuan menutup auratnya kecuali muka dan kedua telapak tangannya (ketika ihram).
+    b. Perempuan tidak mengeraskan suaranya pada waktu membaca talbiyah/berdoa.
+    c. Perempuan tidak disunnahkan lari-lari kecil (ramal) ketika thawaf pada putaran pertama, kedua dan ketiga.
+    d. Perempuan tidak disunnahkan lari-lari kecil saat melintasi lampu hijau ketika sa’i. Dan tidak dianjurkan naik sampai ke atas bukit Safa dan Marwah.
+    e. Perempuan tidak mencukur gundul rambutnya, cukup memotong sedikitnya 3 (tiga) helai atau memotong ujung rambutnya sepanjang jari.
+    """
+            ]
+        },
+        {
+            "tag": "ihram-haid-nifas",
+            "patterns": [
+                "Apakah perempuan haid/nifas harus berniat ihram ketika di miqat?",
+                "Haruskan perempuan yang sedang haid atau nifas berniat ihram di miqat?",
+                "Kewajiban ihram bagi perempuan haid atau nifas di miqat?"
+            ],
+            "responses": [
+                "Perempuan haid atau nifas, ketika sampai di miqat makani, wajib berniat ihram Haji/umrah."
+            ]
+        },
+        {
+            "tag": "status-ihram-menstruasi",
+            "patterns": [
+                "Bagaimana status hukum ihram seorang perempuan yang tiba di Makkah lalu mengalami menstruasi sebelum melaksanakan umrah?",
+                "Apa status ihram jika perempuan mendapatkan menstruasi sebelum umrah?",
+                "Keabsahan ihram bagi perempuan yang menstruasi sebelum umrah?"
+            ],
+            "responses": [
+                "Ihramnya tetap sah dan tidak boleh dibatalkan. Baginya berlaku semua larangan ihram, hingga tahallul."
+            ]
+        },
+        {
+            "tag": "thawaf-ifadah-haid",
+            "patterns": [
+                "Bagaimana perempuan yang belum thawaf ifadah karena haid, sedangkan rombongannya akan segera pulang ke Tanah Air?",
+                "Apa yang harus dilakukan perempuan yang belum melakukan thawaf ifadah karena menstruasi?",
+                "Tindakan apa yang bisa diambil oleh perempuan yang haid dan belum thawaf ifadah?"
+            ],
+            "responses": [
+                """
+    a. Perempuan yang belum thawaf ifadah karena haid, dia harus menunggu sampai suci, sehingga dapat melakukan thawaf ifadah.
+    b. Meminum obat penunda haid atas petunjuk dokter.
+    c. Mengamati waktu jeda suci (tatabbu’ al-naqa’). Ketika darah haid tidak keluar dan diperkirakan cukup waktu untuk thawaf, maka segera mandi, memakai pembalut, dan melakukan thawaf ifadhah dan sa’i. Jika setelah thawaf darah keluar lagi, thawafnya sah dan tidak dikenakan denda apapun.
+    d. Menurut Madzhab Hanafi, boleh melakukan thawaf ifadhah dalam kondisi haid namun dikenakan dam satu ekor unta.
+    e. Menurut Madzhab Hambali, boleh melakukan thawaf ifadhah dalam kondisi haid dengan membayar seekor kambing.
+    f. Ibnu Taimiyyah dan Ibnu al-Qayyim tidak mensyaratkan suci sebagai syarat sahnya thawaf. Karenanya, thawaf ifadhahnya sah dan tidak dikenakan denda apa pun.
+    """
+            ]
+        },
+        {
+            "tag": "pedoman-haji-perempuan",
+            "patterns": [
+                "Apa saja yang perlu diperhatikan oleh jemaah haji perempuan selama berada di Arab Saudi?",
+                "Pedoman apa yang harus diikuti oleh perempuan selama haji?",
+                "Aturan apa saja yang harus dipatuhi oleh jemaah haji perempuan di Saudi?"
+            ],
+            "responses": [
+                """
+    Hal-hal yang perlu diperhatikan oleh jemaah haji perempuan sebagai berikut:
+    a. Berpakaian rapi, Islami, dan menghindari pakaian tipis dan ketat.
+    b. Tidak memakai make up yang berlebihan.
+    c. Bertutur kata yang baik, tidak berbohong, tidak memfitnah, dan tidak menggunjingkan orang lain.
+    d. Menghindari bepergian berduaan dengan orang yang bukan mahramnya.
+    e. Bersikap waspada dan hati-hati terhadap perilaku orang asing yang tidak dikenal, termasuk panggilan-panggilan yang aneh (panggilan Siti Rahmah).
+    f. Menghormati tempat-tempat ibadah dan menghindari perbuatan-perbuatan yang dirasa mengurangi kekhusyukan serta keikhlasan beribadah, seperti berswafoto (selfie) di tempat-tempat tersebut.
+    g. Tetap berpegang teguh pada al-akhlaq al-karimah.
+    """
+            ]
+        },
+        {
+            "tag": "wukuf-arafah-bagi-sakit",
+            "patterns": [
+                "Apakah jemaah haji yang sakit harus Wukuf di Arafah?",
+                "Bagaimana ketentuan Wukuf di Arafah bagi jemaah haji yang sakit?",
+                "Wajibkah jemaah haji yang sakit tetap berada di Arafah?"
+            ],
+            "responses": [
+                "Jemaah haji yang sakit dan dalam perawatan di KKHI (Klinik Kesehatan Haji Indonesia) atau rumah sakit Arab Saudi, tetap diikhtiarkan wukuf di Arafah jika keadaan memungkinkan (sesuai kemampuan) melalui mekanisme safari wukuf. Apabila tidak memungkinkan, maka akan di-badal haji-kan oleh petugas."
+            ]
+        },
+        {
+            "tag": "mabit-muzdalifah-bagi-sakit",
+            "patterns": [
+                "Apakah jemaah haji yang dirawat di rumah sakit harus mabit di Muzdalifah?",
+                "Haruskah jemaah haji yang dirawat di rumah sakit menginap di Muzdalifah?",
+                "Apakah kewajiban mabit di Muzdalifah berlaku bagi jemaah haji yang sakit?"
+            ],
+            "responses": [
+                "Kewajiban mabitnya gugur dan tidak dikenakan dam, karena termasuk jamaah udzur."
+            ]
+        },
+        {
+            "tag": "mabit-mina-bagi-sakit",
+            "patterns": [
+                "Apakah jemaah haji yang sakit harus mabit di Mina?",
+                "Kewajiban mabit di Mina untuk jemaah haji yang sakit?",
+                "Apakah jemaah haji yang sakit perlu menginap di Mina?"
+            ],
+            "responses": [
+                "Kewajiban mabitnya gugur dan tidak dikenakan dam, karena termasuk jamaah udzur."
+            ]
+        },
+        {
+            "tag": "melontar-jamrah-bagi-sakit",
+            "patterns": [
+                "Apakah jemaah haji yang sakit harus melontar jamrah?",
+                "Bolehkah jemaah haji yang sakit mewakilkan melontar jamrah?",
+                "Haruskan jemaah haji yang sakit melakukan pelontaran jamrah sendiri?"
+            ],
+            "responses": [
+                "Jemaah haji yang sakit tidak harus melontar jamrah sendiri, dan boleh mewakilkan kepada orang lain."
+            ]
+        },
+        {
+            "tag": "thawaf-ifadah-bagi-sakit",
+            "patterns": [
+                "Apakah jemaah haji yang sakit harus thawaf ifadah?",
+                "Bagaimana aturan thawaf ifadah bagi jemaah haji yang sakit?",
+                "Bolehkah jemaah haji yang sakit mewakilkan thawaf ifadah?"
+            ],
+            "responses": [
+                """
+    a. Jemaah yang masih mampu secara fisik, tetap melakukan thawaf ifadhah sekalipun dengan cara menggunakan kursi roda atau skuter matick.
+    b. Jemaah yang tidak mampu secara fisik (ma’dhub) boleh mewakilkan tawaf ifadhah kepada orang lain.
+    """
+            ]
+        },
+        {
+            "tag": "prosedur-wukuf-jamrah-thawaf-bagi-sakit",
+            "patterns": [
+                "Bagaimana cara jamaah haji yang dirawat di KKHI dan RSAS melakukan wukuf, melontar jamrah, dan thawaf ifadah?",
+                "Apa prosedur untuk wukuf, melontar jamrah, dan thawaf ifadah bagi jemaah haji yang sakit di KKHI atau RSAS?",
+                "Bagaimana jemaah haji sakit di KKHI dan RSAS melaksanakan wukuf, melontar jamrah, dan thawaf ifadah?"
+            ],
+            "responses": [
+                """
+    a. Wukuf bagi jemaah haji yang sakit dengan cara safari wukuf. Pada pagi 9 Dzulhijjah jemaah haji yang sakit dan dirawat di KKHI diberangkatkan ke Arafah, dengan menggunakan Bus secara beriring-iringan. Tiba di Arafah, jemaah haji yang sakit tetap berada di dalam bus. Setelah masuk waktu wukuf ba’da zawal (setelah tergelincirnya matahari) pada setiap bus dilakukan prosesi acara wukuf, seperti khutbah, shalat, dzikir dan do’a yang dipimpin oleh pembimbing ibadah. Kira-kira pukul 14.00 acara wukuf ditutup kemudian secara beriring-iringan bus kembali ke Kantor Kesehatan Haji Indonesia (KKHI) Makkah, cara wukuf seperti ini hajinya sah.
+    b. Lontar jamrah bagi jemaah haji yang sakit dilakukan dengan cara diwakilkan kepada petugas dan didampingi keluarganya.
+    c. Thawaf ifadah bagi jemaah haji yang sakit dapat dilaksanakan: 1) Di-thawafi fadah-kan dengan kursi roda atau skuter matick.
+     2) Menunda thawaf ifadah sampai kesehatannya memungkinkan, baik menanti di Arab Saudi maupun setelah ada kemampuan kembali lagi ke Tanah Suci untuk menyelesaikan thawaf ifadahnya.
+     3) Dalam kondisi tidak mungkin di-thawaf Ifadhah-kan karena alasan kesehatan, maka dibadalkan, dengan mengikuti pendapat Atha’ Bin Rabah yang membolehkan membayar orang lain untuk melakukan badal tawaf ifadhah. Imam Sihabuddin ar-Ramli, dan Fatwa al-Azhar membolehkan badal thawaf ifadah, dengan syarat orang yang dibadalkan dalam kondisi ma’dhub (orang sakit berat yang secara medis tidak mungkin sembuh) dan harus segera meninggalkan Makkah (Keputusan Mudzakarah Perhajian Indonesia, Kementerian Agama RI,
+                2015, hlm. 36-39).
+    """]
+            },
+            {
+                "tag": "wukuf-sakit-rsas",
+                "patterns": [
+                    "Apakah jemaah haji yang sakit yang dirawat di Rumah Sakit Arab Saudi diwukufkan?",
+                    "Bagaimana cara wukuf bagi jemaah haji yang dirawat di rumah sakit di Arab Saudi?",
+                    "Proses wukuf bagi pasien jemaah haji di rumah sakit Arab Saudi bagaimana?"
+                ],
+                "responses": [
+                    "Pihak Rumah Sakit Arab Saudi mewukufkan pasien-pasien yang dirawat di RSAS dengan menggunakan ambulance (kendaraan), sebagaimana safari wukuf yang dilakukan oleh KKHI."
+                ]
+            },
+            {
+                "tag": "thawaf-wada-sakit",
+                "patterns": [
+                    "Apa hukum thawaf wada’ bagi jemaah haji yang sakit?",
+                    "Haruskah jemaah haji yang sakit melakukan thawaf wada'?",
+                    "Apakah jemaah haji sakit dikenakan dam jika tidak melakukan thawaf wada'?"
+                ],
+                "responses": [
+                    "Tidak diwajibkan dan tidak dikenakan dam."
+                ]
+            },
+            {
+                "tag": "definisi-shalat-arbain",
+                "patterns": [
+                    "Apa yang dimaksud shalat berjamaah Arba’in?",
+                    "Jelaskan shalat berjamaah Arba’in di Masjid Nabawi?",
+                    "Apa itu shalat berjamaah Arba’in?"
+                ],
+                "responses": [
+                    "Shalat berjamaah Arba’in adalah shalat berjamaah 5 (lima) waktu secara berjamaah di Masjid Nabawi sebanyak 40 (empat puluh) waktu shalat."
+                ]
+            },
+            {
+                "tag": "kontinuitas-shalat-arbain",
+                "patterns": [
+                    "Apakah shalat berjamaah Arba’in diharuskan berjamaah dengan Imam Rawatib Masjid Nabawi dan tidak boleh terputus-putus?",
+                    "Haruskah shalat Arba’in dilakukan tanpa terputus dengan Imam Rawatib?",
+                    "Aturan berjamaah terputus untuk shalat Arba’in di Masjid Nabawi?"
+                ],
+                "responses": [
+                    "Dianjurkan berjamaah dengan Imam Rawatib dan tidak terputus-putus, kecuali ada uzur syar’iy (halangan yang dimaklumi), seperti kondisi fisiknya lemah, sakit atau datang haid bagi perempuan)."
+                ]
+            },
+            {
+                "tag": "pahala-shalat-masjid",
+                "patterns": [
+                    "Apakah shalat di dalam bangunan masjid sama pahalanya dengan yang shalat di halaman atau teras masjid?",
+                    "Perbedaan pahala shalat di dalam dan luar bangunan Masjid Nabawi?",
+                    "Pahala shalat di dalam vs luar bangunan masjid?"
+                ],
+                "responses": [
+                    "Sama saja dari sudut letak, tapi dari sudut ikhtiar tergantung usaha yang dilakukan orang yang bersangkutan."
+                ]
+            },
+            {
+                "tag": "pahala-masjidil-haram-vs-lain",
+                "patterns": [
+                    "Apakah sama pahala orang yang shalat di Masjidil Haram dengan orang yang shalat di masjid lain di Tanah Haram?",
+                    "Perbandingan pahala shalat di Masjidil Haram dan masjid lain di Makkah?",
+                    "Pahala shalat di Masjidil Haram vs masjid lain di Tanah Haram?"
+                ],
+                "responses": [
+                    "Pada dasarnya, semua masjid yang berdiri di atas Tanah Haram dihukumkan masjid yang fadilahnya sama dengan Masjidil Haram. Shalat di Masjidil Haram pahalanya 100.000 (seratus ribu) kali kelipatan. Adapun di Masjid Nabawi Madinah pahalanya 1.000 (seribu) kali kelipatan."
+                ]
+            },
+            {
+                "tag": "akhlaqul-karimah-haji",
+                "patterns": [
+                    "Apa saja akhlaqul karimah jemaah haji?",
+                    "Keutamaan apa yang dianjurkan bagi jemaah haji?",
+                    "Apa sifat-sifat mulia yang harus dimiliki oleh jemaah haji?"
+                ],
+                "responses": [
+                    "Di antara sebagian akhlaqul karimah yang dianjurkan bagi jemaah haji adalah: a. Taqarrub, berusaha mendekatkan diri kepada Allah secara terus menerus. b. Tadabbur, mengambil pelajaran dari peristiwa yang dialaminya untuk menambah keimanan kepada Allah. c. Tafakkur, banyak berfikir tentang ihwal diri, agama, dan kehidupannya demi mencapai kemaslahatan dunia dan akhirat. d. Tasamuh, bersikap toleran dengan sesama atas keragaman kepentingan dan kebutuhan, serta saling pengertian untuk mendukung terlaksananya kemaslahatan bersama. e. Ta’awun, saling tolong-menolong dalam kebajikan dan tidak sebaliknya. f. Thaliqul wajhi, menampakkan wajah yang cerah-ceria penuh kedamaian dan menyenangkan. g. Tawasau bil-haq tawasau bi as-sabri, saling mengingatkan dan nasihat terhadap sesama tentang kebenaran dan kesabaran. h. Qana’ah, bersifat lapang dada, menerima apa saja pemberian Allah, baik sesuai dengan keinginan atau pun tidak. i. Ridha, Sikap merasa senang, rela dan puas menerima dan tidak membenci segala macam bentuk ketetapan Allah Swt., melihat semua peristiwa perjalanan haji dan alam sekeliling merasa indah."
+                ]
+            },
+            {
+                "tag": "larangan-dalam-ihram",
+                "patterns": [
+                    "Apa saja yang termasuk dalam kategori rafas, fusuq, dan jidal yang dilarang dalam ihram?",
+                    "Jelaskan larangan rafas, fusuq, dan jidal dalam ihram sesuai Al-Qur'an",
+                    "Apa yang dimaksud dengan rafas, fusuq, dan jidal dalam konteks ihram?"
+                ],
+                "responses": [
+                    "a. Rafas adalah mengeluarkan perkataan tidak senonoh yang mengandung unsur kecabulan, senda gurau berlebihan yang menjurus kepada timbulnya nafsu birahi, termasuk melakukan hubungan badan. b. Fusuq adalah segala perbuatan maksiat, termasuk takabbur, merugikan orang lain, zalim, berbuat yang dapat menodai akidah, merusak alam, dan menghasut maksiat. c. Jidal adalah sikap dan perbuatan yang mengarah pada perdebatan dan perselisihan, termasuk berbantah-bantahan dan demonstrasi yang tidak sesuai dengan keinginan, meskipun untuk mempertahankan kebenaran."
+                ]
+            },
+            {
+                "tag": "definisi-haji-mabrur",
+                "patterns": [
+                    "Apa yang dimaksud dengan haji mabrur?",
+                    "Definisi haji mabrur menurut syariat Islam?",
+                    "Bagaimana haji dianggap mabrur?"
+                ],
+                "responses": [
+                    "Haji mabrur menurut bahasa berarti haji yang baik atau yang diterima oleh Allah SWT. Menurut istilah, adalah haji yang mendorong pelakunya menjadi lebih baik dari sebelumnya, serta dilaksanakan sesuai dengan petunjuk Allah dan Rasul-Nya, dengan memperhatikan berbagai syarat, rukun, wajib dan adabnya, serta menghindari hal-hal yang dilarang dengan penuh konsentrasi dan penghayatan semata-mata atas dorongan iman dan mengharap rida Allah SWT."
+                ]
+            },
+            {
+                "tag": "kriteria-haji-mabrur",
+                "patterns": [
+                    "Apa saja kriteria haji mabrur?",
+                    "Bagaimana jemaah haji dapat meraih haji mabrur?",
+                    "Kriteria apa yang harus dipenuhi untuk haji mabrur?"
+                ],
+                "responses": [
+                    "Beberapa kriteria untuk meraih haji mabrur antara lain: a. Pelaksanaan ibadah haji harus didasari dengan niat yang ikhlas karena Allah. b. Biaya dan bekal untuk menunaikan haji harus berasal dari harta halalan tayyiban. c. Pelaksanaan ibadah haji sesuai dengan tuntunan manasik yang benar. d. Menghindari seluruh larangan ihram dan perbuatan maksiat. e. Memperbanyak dzikir, istighfar dan amal saleh."
+                ]
+            },
+            {
+                "tag": "ciri-haji-mabrur",
+                "patterns": [
+                    "Apa saja ciri-ciri haji mabrur?",
+                    "Bagaimana mengidentifikasi haji mabrur?",
+                    "Ciri-ciri jemaah haji yang mabrur"
+                ],
+                "responses": [
+                    "Ciri-ciri orang yang meraih haji mabrur di antaranya: a. Santun dalam bertutur kata. b. Menyebarkan kedamaian. c. Memiliki kepedulian sosial. d. Berperilaku lebih baik dibanding sebelum menunaikan ibadah haji. e. Bertambah zuhud terhadap kehidupan dunia dan lebih mengutamakan akhirat. f. Senantiasa berserah diri kepada Allah dengan menerapkan sikap sabar, syukur, tawakkal, dan ridha."
+                ]
+            }
+        ]
+    }
